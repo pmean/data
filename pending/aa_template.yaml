@@ -1,0 +1,63 @@
+---
+data_dictionary: <<one or more filenames>>
+
+authors:
+  <<Who wrote/revised this, when was it created and when was it last modified>>
+
+copyright:  
+  <<text>>
+  
+creation_date: <<yyyy-mm-dd>>
+
+description:  
+  <<text>>
+
+download: <<one or more urls>>
+  
+format: 
+  delimiter: <<choose one>>
+    blank
+    comma
+	none
+    space
+    tab
+
+  varnames: <<choose one>>
+    first row of data
+    not included
+  missing-value-code: <<choose one>>
+    .
+    *
+    NA
+    not needed
+
+  rows: <<positive integer>>
+
+  columns: <<positive integer>>
+
+source: 
+  <<text>> 
+
+vars:
+  <<variable_name>>:
+    columns: xx-yy
+    label: <<text>>
+
+    scale: <<choose one>>
+      count
+      integer
+      ordinal integer category
+      ordinal text category
+      nominal integer category
+      nominal text category
+      non-negative integer
+      non-negative real
+      positive integer
+      positive real
+      real
+      text
+
+    unit: <<choose one>>
+      dollars
+      years
+---

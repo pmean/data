@@ -1,0 +1,59 @@
+---
+data_dictionary: swim-speeds
+
+description: >
+  This experiment was conducted by Kim 
+  Horsfall, Sue Hall and Simone Golik, 
+  statistics students at the Queensland 
+  University of Technology in a subject
+  taught by Dr Margaret Mackisack. The
+  students designed and conducted an 
+  experiment to determine the factors
+  affecting the time to swim one lap of
+  a 25m pool.
+
+source: >
+  Mackisack, M. S. (1994). What is the use
+  of experiments conducted by statistics
+  students? Journal of Statistics Education,
+  2, no 1.
+
+copyright:
+  Gordon Smyth holds the copyright to this 
+  data. You should be able to use this data
+  for individual educational purposes under 
+  the Fair Use guidelines of U.S. copyright
+  law.
+
+vars: 
+  Order:
+    label: Time order of experiment
+    scale: 1 through 24
+
+  Time:
+    label: Time to swim 25 meters
+  
+  Shirt:
+    label: Wearing shirt
+    values:
+      No: 0
+      Yes: 1
+
+  Goggles:
+    label: Wearing goggles
+    values:
+      No: 0
+      Yes: 1
+    
+  
+  Flippers:
+    label: Wearing flippers
+    values:
+      No: 0
+      Yes: 1
+  
+  End:
+    label: Started from deep end of pool
+    values:
+      No: 0
+      Yes: 1

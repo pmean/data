@@ -1,0 +1,55 @@
+---
+data_dictionary: 
+  moon.txt
+
+description: >
+  This data set shows a perceptual experiment where subjects were asked
+  to estimate a size ratio with their head level to the ground and then
+  with their head elevated (in other words, looking upward). Although
+  the objects being compared were the same size, almost all subjects 
+  overestimated the relative sizes. The hypothesis to be tested is 
+  whether the overestimation is greater with eyes level than with eyes
+  elevated.
+
+
+additional_description:
+  https://gksmyth.github.io/ozdasl/general/moon.html
+
+repository:
+  Data And Story Library (DASL)
+  
+repository_url:
+  https://dasl.datadescription.com/
+  
+download_url:
+  https://gksmyth.github.io/ozdasl/general/moon.txt
+  
+copyright:  
+  unknown
+
+format: 
+  tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code:
+  not needed
+
+size:
+  rows: 10
+  columns: 3
+
+vars:
+  Subject:
+    label: Subject number
+    format: numeric
+
+  Elevated:
+    label: Perceived ratio with eyes elevated
+    format: numeric
+    
+  Level:
+    label: Perceived ratio with eyes level
+    format: numeric
+---

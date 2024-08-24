@@ -1,0 +1,64 @@
+This file was downloaded from the DASL (Data and Story Library) website. There are no details about who created the data set or what permissions are allowed. Educational uses of this data are probably allowed under the Fair Use provisions of U.S. Copyright Law.
+
+This is a tab delimited data file. There are 50 rows and 2 columns of data.
+
+The first variable is the sample number (1 to 50). The second variable is the circumference of the baseball in inches. The variable names are included at the top of the data.
+
+The standard sized baseball, according to Wikipedia and other sources on the Internet is 9 to 9.25 inches. There are no missing values in this data set.
+
+This data dictionary was written by Steve Simon on 2023-09-10 and is placed in the public domain.
+
+Please be sure to skip past this documentation while importing the data.
+
+Sample	Circumference
+1	8.998
+2	9.181
+3	9.147
+4	9.182
+5	9.087
+6	9.154
+7	9.108
+8	9.109
+9	9.141
+10	9.093
+11	9.142
+12	9.140
+13	9.125
+14	9.175
+15	8.985
+16	9.119
+17	9.140
+18	9.109
+19	9.190
+20	9.087
+21	9.046
+22	9.108
+23	9.188
+24	9.125
+25	9.114
+26	9.121
+27	9.111
+28	9.130
+29	9.116
+30	9.035
+31	9.188
+32	9.092
+33	9.078
+34	9.101
+35	9.113
+36	9.087
+37	9.054
+38	9.177
+39	9.058
+40	9.179
+41	9.147
+42	9.123
+43	9.097
+44	9.108
+45	9.214
+46	9.140
+47	9.151
+48	9.041
+49	9.061
+50	9.162
+

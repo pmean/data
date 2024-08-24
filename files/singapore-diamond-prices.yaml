@@ -1,0 +1,69 @@
+---
+data_dictionary: diamonds.txt
+
+description:  
+  The data is intended to teach some lessons
+  about regression models. The size of a 
+  diamond, as well as some categorical 
+  descriptors (color and clarity) are listed
+  for 308 diamonds, along with their sales
+  price.
+  
+additional_description:  
+  http://jse.amstat.org/v9n2/4C.txt
+
+repository:
+  Journal of Statistics Education Data Archive
+
+repository_url:
+  https://jse.amstat.org/jse_data_archive.htm
+  
+download_url:  
+  http://jse.amstat.org/v9n2/4Cdata.txt
+  
+source: 
+  Singapore's Business Times, 2000-02-18.
+
+copyright:  
+  The general policy of the Journal of Statistics 
+  Education is that the author of journal articles
+  maintain copyright over their materials, which
+  would include the dataset listed here. You should
+  be able to use this data for individual 
+  educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+format: 
+  space-delimited
+  
+varnames: 
+  Not included
+  
+missing_value_code: none needed
+
+size: 
+  rows: 308
+  columns: 5
+
+vars:
+  Carat:
+    label: Weight of diamond stones
+    unit: carats
+    columns: 1-4
+    
+  Colour:
+    label: Color of the diamond
+    values: D, E, F, G, H or I
+    columns: 6
+    
+  Clarity:
+    values: IF, VVS1, VVS2, VS1 or VS2
+    columns: 8-11
+    
+  Certification:
+    values: GIA, IGI or HRD
+    columns: 13-15
+    
+  Price:
+    unit: Singapore dollars
+---

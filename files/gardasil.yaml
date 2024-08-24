@@ -1,0 +1,106 @@
+---
+data_dictionary: gardasil.csv, gardasil.tsv
+
+source:
+  This data file is part of the data 
+  archive for the Journal of Statistics
+  Education. The entire archive is at
+  http://jse.amstat.org/jse_data_archive.htm
+  
+
+description:
+  This data set shows information about young
+  women who received the Gardasil shot. Of
+  particular interest is the proportion of
+  women who received all three shots.
+
+additional_description:
+  http://www.amstat.org/publications/jse/v19n1/gardasil.txt
+  
+download_url:
+  http://www.amstat.org/publications/jse/v19n1/gardasil.xls
+  http://www.pmean.com/15/images/day2gardasil.csv
+  
+copyright:  
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+format: 
+  csv: comma-delimited
+  tsv: tab-delimited
+
+varnames:
+ first row of data
+
+missing_value_code:
+  not needed
+
+size:
+  rows: 1413
+  columns: 10
+
+vars:
+  Age:
+    label: the patient's age
+    unit: years
+
+  AgeGroup:
+    label: the age group in which the patient falls
+    values: 
+      11-17 years: 0
+      18-26 years: 1
+
+  Race:
+    label: the patient's race
+    values:
+      white: 0
+      black: 1
+      Hispanic: 2
+      other/unknown: 3
+
+  Shots:
+    label: the number of shots that the patients completed
+
+  Completed:
+    label: did the patient complete the three-shot regimen
+    values:
+      no: 0
+      yes: 1
+
+  InsuranceType:
+    label: the type of insurance that the patient had
+    values:
+      medical assistance: 0
+      private payer: 1
+      hospital based [EHF]: 2
+      military: 3
+
+  MedAssist:
+    label: sid the patient have some type of medical assistance
+    values:
+      no: 0
+      yes: 1
+
+  Location:
+    label: the clinic that the patient attended
+    values: 
+      Odenton: 1
+      White Marsh: 2
+      Johns Hopkins Outpatient Center: 3
+      Bayview: 4
+
+  LocationType:
+    label: was the clinic in a suburban or an urban location
+    values:
+      suburban: 0
+      urban: 1
+
+  PracticeType:
+    label: the type of practice that the patient visited
+    values:
+      0: pediatric
+      1: family practice
+      2: OB-GYN
+
+---

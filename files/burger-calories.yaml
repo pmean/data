@@ -1,0 +1,55 @@
+---
+data_dictionary: burger.txt
+
+
+description: >
+  Fat, sodium, and calories for various 
+  fast food hamburgers.
+  
+additional_description: 
+  https://dasl.datadescription.com/datafile/burgers/
+
+repository:
+  Data And Story Library (DASL)
+  
+repository_url:
+  https://dasl.datadescription.com/
+ 
+source: >
+  DASL, Data and Story Library. DASL is a repository of small but
+  interesting datasets. It is maintained by Data Description, a
+  company that sells a statistical analysis program, Data Desk.
+  
+download_url: 
+  text-format: https://dasl.datadescription.com/download/data/3088
+
+copyright:
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+format: 
+  tab-delimited
+  
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+
+size:
+  rows: 7
+  columns: 3
+
+vars:
+  Fat:
+    label: Fat content of burger
+    unit: grams(?)
+    
+  Sodium:
+    label: Sodium content of burger
+    unit: milligrams(?)
+    
+  Calories:
+    label: Calories of burger
+---    

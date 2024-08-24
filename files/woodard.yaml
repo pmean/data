@@ -1,0 +1,83 @@
+---
+data_dictionary:
+  wooodard.xls
+  
+description:
+  Information from a Wake County, NC database, 
+  taken in 2008. This a random sample from the
+  entire county.
+  
+additional_description:
+  http://jse.amstat.org/datasets/woodard%20data%20set%20desc.txt
+
+source:
+  http://services.wakegov.com/realestate/
+
+download_url:
+  http://jse.amstat.org/datasets/woodard.xls
+
+copyright: >
+  https://jse.amstat.org/jse_users.htm
+
+format: 
+  proprietary (Excel)
+  
+varnames:
+  first row of data
+  
+missing_value_code:
+  blank cell
+
+size:
+  rows: 100
+  columns: 11
+
+vars:
+  ID:
+    label: the county-given identification number for the selected plot
+
+  Year Built:
+    label: the listed year in which the structure was built (by year)
+
+  "Sq Ft":
+    label: the area of the floor plan
+    unit: square feet
+
+  Story:
+    label: how many stories the structure has
+    scale: ordinal 
+    values: 
+      1, 1.5, 1.75, 2, 2.5
+
+  Acres:
+    label: size of the land
+    unit: acres
+
+  "No Baths":
+    label: the number of bathrooms at the residence
+    scale: ordinal
+    values:
+      1, 1.5, 2, 2.5, 3
+
+  Fireplaces:
+    label: the number of fireplaces in the residence
+    scale: ordinal
+    values: 
+      0, 1, 2
+
+  "Total $":
+    label: the total assessed value of the property
+    unit: U.S. dollars
+
+  "Land $":
+    label: the assessed value of the land
+    unit: U.S. dollars
+
+  "Building $":
+    label: the assessed value of the building
+    unit: U.S. dollars
+
+  Zip:
+    label: the zip code of the property
+    scale: nominal
+---

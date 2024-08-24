@@ -1,0 +1,374 @@
+---
+data_dictionary: Health-related Quality of Life of Persons Living with Tuberculosis.sav
+
+source: >
+  Tornu, Eric ; Quarcoopome, Louisa  (2022), 
+  “Health-related Quality of Life of Persons
+  Living with Tuberculosis”, Mendeley Data, 
+  V2, doi: 10.17632/jg4xp7883w.2
+  
+description: >
+  From the original source: This data is on
+  a study which accessed the health-related
+  quality of life of persons living with
+  Tuberculosis.
+  
+note: >
+  Also see Quarcoopome L, Tornu E. Health-related
+  quality of life of persons living with 
+  tuberculosis, A cross-sectional study. J Clin 
+  Tuberc Other Mycobact Dis. 2022 Jun 30;28:100324.
+  doi 10.1016/j.jctube.2022.100324. PMID 35813286;
+  PMCID PMC9260615, and
+  https://iris.who.int/bitstream/handle/10665/63529/WHOQOL-BREF.pdf"
+  
+copyright:  
+  CC By 4.0
+
+format: 
+  proprietary: SPSS
+  rows: 250
+  columns: 53
+
+vars:
+  Respondents:
+    scale: Numerical sequence, 1 through 250
+    
+  StudySite:
+    values:
+      1: KBTH
+      2: LEKMA
+      3: TGH
+      4: GSMH
+      
+  ID:
+    scale: alphanumeric code
+    
+  CategoryofTuberculosis: 
+    values:
+      1: Pulmonary
+      2: Extrapulmonary
+      
+  CategoryofTuberculosisTypeofExtrapulmonaryTB:
+    values:
+      1: "Potts' disease"
+      2: Pleural effusion
+      3: Cervical lymph nodes
+      4: Right knee
+      5: Left lung abcess
+      6: Loculated 2 & lung abscess
+      7: Milliart TB
+      8: Lymph node
+      9: Not applicable 
+      
+  CategoryofCase:
+    values:
+      1: New case
+      2: Re-treatment
+ 
+  PhaseofTreatment:
+    values: 
+      1: Intensive
+      2: Continuation
+    
+  AgeYears:
+    scale: Non-negative integer
+
+  Sex:
+    values:
+      1: Female
+      2: Male
+      
+  Religion:
+    values:
+      1: Christian
+      2: Islam
+      
+  MaritalStatus:
+    values:
+      1: Single
+      2: Married
+      3: Separated
+      4: Widow
+
+  HighestLevelofEducation:
+    values:
+      1: No formal education
+      2: Primary
+      3: Secondary
+      4: Tertiary
+      
+  Occupation_Cat:
+    values:
+      1: Unemployed
+      2: Student
+      3: Employes
+
+  AverageMonthlyIncome:
+    values:
+      1: Below Ghc1,000
+      2: Between Ghc1,000 and Ghc2,000
+      3: Between Ghc2,001 and Ghc3,000
+
+  Howwouldyourateyourqualityoflife_1:
+    values:
+      1: Poor
+      2: Neither poor nor good
+      3: Good
+      4: Very Good  
+
+  HowSatisareyouwithyourhealth_2:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+
+  Physicalpainprevents_3:
+    values:
+      1: An extreme amount
+      2: Very much
+      3: A moderate amount
+      4: A little
+      5: Not at all
+
+  Howmuchmedicaltreatment_4:
+    values:
+      1: An extreme amount
+      2: Very much
+      3: A moderate amount
+      4: A little
+      5: Not at all
+
+  Howmuchdoyouenjoylife_5:
+    values:
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+
+  Towhatextentdoyoufeelyourlifetobemeaningful_6:
+    values:
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  Howwellareyouabletoconcentrate_7:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+
+  Howsafedoyoufeelinyourdailylife_8:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+
+  Howhealthyisyourphysicalenvironment_9:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  Doyouhaveenoughenergyforeverydaylife_10:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  Areyouabletoacceptyourbodilyappearance_11:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+
+  Haveyouenoughmoneytomeetyourneeds_12:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  AvailableInformation_13:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  Opportunityforleisureactivities_14:
+    values: 
+      1: Not at all
+      2: A little
+      3: A moderate amount
+      4: Very much
+      5: Extremely
+  
+  Howwellareyouabletogetaround_15:
+    values:
+      1: Very poor
+      2: Poor
+      3: Neither poor nor good
+      4: Good
+      5: Very Good  
+
+  HowSatisareyouwithyoursleep_16:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  Satisabilitytoperformyourdailylivingactivities_17:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  Satisareyouwithyourcapacityforwork_18:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  HowSatisareyouwithyourself_19:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+
+  HowSatisareyouwithyourpersonalrelationships_20:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  HowSatisareyouwithyoursexlife_21:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  SatisSupportyougetfromyourfriends_22:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  HowSatisareyouwiththeconditionsofyourlivingplace_23:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  HowSatisareyouwithyouraccesstohealthservices_24:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+
+  HowSatisareyouwithyourtransport_25:
+    values:
+      1: Very dissatisfied
+      2: Dissatisfied
+      3: Neither satisfied nor satisfied
+      4: Satisfied
+      5: Very Satisfied
+  
+  Howoftennegativefeelings_26:
+    values:
+      1: Always
+      2: Very often
+      3: Quite often
+      4: Seldom
+      5: Never
+
+  Psychological_Domain_Raw:
+    label: Sum of Q5, Q6, Q11, Q19, Q26
+    range: 6 through 36
+  
+  Social_Relationship_Domain_Raw:
+    label: Sum of Q20, Q21, Q22
+    range: 3 through 12
+  
+  Environment_Domain_Raw:
+    label: Sum of Q8, Q9, Q12, Q13, Q14, Q23, Q24, Q25
+    range: 9 through 38
+  
+  Physical_Domain_Raw:
+    label: Q3, Q4, Q10, Q15, Q16, Q17, Q18
+    range: 7 through 31
+  
+  Physical_4_20:
+    label: Rescaled version of Physical_Domain_Raw
+    range: 4 through 20
+    
+  Psychological_4_20:
+    label: Rescaled version of Psychological_Domain_Raw
+    range: 4 through 20
+  
+  Social_4_20:
+    label: Rescaled version of Social_Relationship_Domain_Raw
+    range: 4 through 20
+  
+  Environmental_4_20:
+    range: 4 through 20
+    label: Rescaled version of Environmental_Domain_Raw
+  
+  PHYSICAL_100:
+    label: Rescaled version of Physical_Domain_Raw
+    range: 0 through 100
+  
+  PSYCHOLOGICAL_100:
+    label: Rescaled version of Psychological_Domain_Raw
+    range: 0 through 100
+  
+  SOCIAL_100:
+    label: Rescaled version of Social_Relationship_Domain_Raw
+    range: 0 through 100
+  
+  ENVIRONMENTAL_100:
+    label: Rescaled version of Environmental_Domain_Raw
+    range: 0 through 100
+  
+  Age_Cat:
+    values:
+      1: "<15 years"
+      2: "15 - 34 years"
+      3: "35 - 64 years"
+      4: "> 65 years"
+---

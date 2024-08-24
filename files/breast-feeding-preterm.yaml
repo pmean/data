@@ -1,0 +1,178 @@
+---
+data_dictionary: bf.csv
+
+description: >
+  This data comes from a research study done at Children's Mercy Hospital
+  and St. Luke's Medical Center. This was a study of breast feeding in 
+  pre-term infants. Infants were randomized into either a treatment group
+  (NG tube) or a control group (Bottle). Infants in the NG tube group 
+  were fed in the hospital via their nasogastral tube when the mother
+  was not available for breast feeding. Infants in the bottle group
+  received bottles when the mothers were not available. Both groups
+  were monitored for six months after discharge from the hospital.
+
+copyright:
+  This data is in the public domain and is freely avaiable for anyone
+  to use. Acknowledgement of the source is appreicated but not required.
+
+format:
+  comma-delimited
+  
+varnames: 
+  first row of data
+  
+missing_value_code:
+  A space between two commas
+
+size:
+  rows: 844
+  columns: 31
+
+vars:
+  feed_typ:
+    value:
+      Control
+      Treatment
+
+  age_stop:
+    label: Age at which infant stopped breast feeding
+    scale: non-negative real
+    unit: weeks
+
+  sepsis:
+    label: Diagnosis of sepsis
+    value:
+      No
+      Yes
+
+  total_ab:
+    label: Total number of apnea and bradycardia incidents
+    scale: non-negative integer
+
+  del_type:
+    label: Type of delivery 
+    values:
+      Vaginal: 1
+      C-section: 2
+ 
+  mom_age:
+    label: Mother's age
+    unit: years
+
+  gravida:
+    label: Gravidity or number of pregnancies
+    scale: non-negative integer
+
+  para:
+    label: Parity or number of live births
+    scale: non-negative integer
+   
+  mar_st:
+    label: Marital status of mother
+    values:
+      Single: 1
+      Married: 2   
+     
+  race:
+    label: Mother's race
+    values:
+      White: W
+      Black: B
+      
+  smoker:
+    label: Smoking by mother during pregnancy
+    values:
+      Yes: 1
+      No: 2
+
+  mi_hosp:
+    label: Distance from the mother's home to the hospital
+    unit: miles
+    scale: non-negative integer
+   
+  ng_tube:
+    label: Time on the NG tube
+    unit: days
+    scale: non-negative integer
+   
+  tot_bott:
+    label: Bottles of formula given while in the hospital
+    scale: non-negative integer
+
+  bw:
+    label: Birthweight
+    unit: kg
+    scale: non-negative real
+   
+  gest_age:
+    label: Estimated gestational age
+    unit: weeks
+    scale: positive integer
+
+  apgar1:
+    label: Apgar score at one minute
+    scale: 0 through 10
+
+  apgar5:
+    label: Apgar score at five minutes
+    scale: 0 through 10
+   
+  bf1_wt:
+    label: Weight at first breast feeding
+    unit: kg
+    scale: non-negative real
+   
+  bf1_age:
+    label: Age at first breast feeding
+    unit: hours
+    scale: positive integer   
+   
+  dc_wt:
+    label: Weight at discharge
+    unit: kg
+    scale: positive real
+   
+  dc_age:
+    label: Age at discharge
+    unit: days
+    scale: positive integer
+   
+  dc3_wt:
+    label: Weight three days after discharge
+    unit: days
+    scale: positive real
+   
+  bf0:
+    label: Breastfeeding status at hospital discharge
+    values:
+      Exclusive: 1
+      Partial: 2
+      None: 4
+   
+  bf1:
+    label: Breastfeeding status three days after discharge
+    values:
+      Exclusive: 1
+      Partial: 2
+      None: 4
+   
+  bf2:
+    label: Breastfeeding status six weeks after discharge
+    values:
+      Exclusive: 1
+      Partial: 2
+      None: 4
+   
+  bf3:
+    label: Breastfeeding status three months after discharge
+    values:
+      Exclusive: 1
+      Partial: 2
+      None: 4
+   
+  bf4:
+    label: Breastfeeding status six months after discharge
+    values:
+      Exclusive: 1
+      Partial: 2
+      None: 4

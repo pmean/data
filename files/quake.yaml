@@ -1,0 +1,14 @@
+---
+data_dictionary: quake.txt
+
+description: >
+  Depression scores measured before and
+  at multiple time points after a major
+  earthquake.
+
+additional_description:
+  http://www.statsci.org/data/general/lomaprie.html
+
+download_url:
+  http://www.statsci.org/data/general/lomaprie.txt
+---

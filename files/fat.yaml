@@ -1,0 +1,117 @@
+---
+data_dictionary:
+  fat.csv, .txt
+  
+description: >
+  This dataset includes two measures of body fat (a 
+  quantity  that is normally quite difficult to 
+  measure) along with some simpler measures of body
+  size that could be used to predict body fat.
+  
+additional_description:  
+  http://jse.amstat.org/datasets/fat.txt
+
+note: >
+  This data is also part of the 
+  SQLite database, melange.
+
+source: >
+  Roger W. Johnson (1996) Fitting Percentage of 
+  Body Fat to Simple Body Measurements, Journal
+  of Statistics Education, 4(1), 
+  DOI 10.1080/10691898.1996.11910505.
+
+source_url: 
+  https://www.tandfonline.com/doi/full/10.1080/10691898.1996.11910505
+
+download_url:
+  http://jse.amstat.org/datasets/fat.dat.txt
+
+copyright: >
+  Copyright is held by Roger Johnson.
+  
+format: 
+  csv: comma-delimited
+  txt: tab-delimited
+  
+varnames: 
+  not included
+  
+missing_value_code: 
+  not needed
+  
+size:
+  rows: 252
+  columns: 19
+
+vars:
+  case: 
+    label: sequence number from 1 to 252
+
+  fat_b:
+    label: body fat using Brozek's equation
+    unit: percent
+    
+  fat_s:
+    label: body fat using Siri's equation
+    unit: percent
+    
+  density:
+    unit: gm/cm^3
+    
+  age:
+    unit: years
+    
+  weight:
+    unit: pounds
+    
+  height:
+    unit: inches
+    
+  bmi:
+    label: body mass index
+    unit: g/cm^2
+    
+  ffw:
+    label: fat free weight
+    unit: pounds
+    
+  neck:
+    label: neck circumference
+    unit: cm
+    
+  chest:
+    label: chest circumference
+    unit: cm
+    
+  abdomen:
+    label: abdomen circumference
+    unit: cm
+    
+  hip:
+    label: hip circumference
+    unit: cm
+    
+  thigh:
+    label: thigh circumference
+    unit: cm
+    
+  knee:
+    label: knee circumference
+    unit: cm
+    
+  ankle:
+    label: ankle circumference
+    unit: cm
+    
+  biceps:
+    label: biceps circumference
+    unit: cm
+    
+  forearm:
+    label: forearm circumference
+    unit: cm
+    
+  wrist:
+    label: wrist circumference
+    unit: cm

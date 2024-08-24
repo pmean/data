@@ -1,0 +1,69 @@
+---
+data_dictionary: vaccine-willingness.csv
+
+source: >
+  Isonne C, Iera J, Sciurti A, Renzi E,
+  De Blasiis MR, Marzuillo C, Villari P,
+  Baccolini V. How well does vaccine
+  literacy predict intention to vaccinate
+  and vaccination status? A systematic
+  review and meta-analysis. Hum Vaccin
+  Immunother. 2024 Dec 31;20(1):2300848.
+  doi: 10.1080/21645515.2023.2300848.
+  PMID: 38174706; PMCID: PMC10773666.
+
+description: >
+  This paper identified seven studies that
+  examined vaccine literacy (VL).  Patients
+  in these studies also stated their 
+  vaccine prefernce and were categorized 
+  as willing or unwilling.
+  
+copyright: >
+  This data was abstracted from a table in a
+  paper published under a Creative Commons
+  Attribution-NonCommercial license. You are
+  free to use this data as long as you cite
+  the original source.
+  
+format:
+  comma-delimited
+
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  Not needed
+ 
+size:
+  rows: 7
+  columns: 8
+
+vars:
+  author:
+    label: first author of publication
+
+  vaccine_type:
+    label: Type of vaccination
+    values:
+      - booster
+      - primary
+
+  willing_mean:
+    label: Mean VL in willing patients
+
+  willing_sd:
+    label: Standard deviation of VL in willing patients
+
+  willing_n:
+    label: Number of willing patients
+
+  unwilling_mean:
+    label: Mean VL in unwilling patients
+
+  unwilling_sd:
+    label: Standard deviation of VL in unwilling patients
+
+  unwilling_n:
+    label: Number of unwilling patients
+---

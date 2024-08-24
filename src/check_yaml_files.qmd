@@ -1,0 +1,79 @@
+---
+title: "Check local yaml files"
+author: "Steve Simon"
+date: "Created 2024-06-29"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+```{r setup}
+#> echo: false
+library(glue)
+library(stringr)
+library(yaml)
+```
+
+## Get file list
+
+```{r get-list}
+yamls <- list.files("..", pattern="yaml$")
+```
+
+There are `r length(yamls)` yaml files to be checked: `r paste0(yamls, collapse=", ")`.
+
+
+
+## Check local files
+
+```{r local}
+#> error: true
+for (y in yamls) {
+  cat("\n")
+  cat(y)
+  cat(": ")
+  check <- read_yaml(glue("../{y}"))
+  cat(check$data_dictionary)
+}
+```
+
+## Check github files
+
+```{r github}
+#> error: true
+f0 <- "https://raw.githubusercontent.com"
+f1 <- "pmean/datasets/master"
+for (y in yamls) {
+  cat("\n")
+  cat(y)
+  cat(": ")
+  check <- read_yaml(glue("{f0}/{f1}/{y}"))
+  cat(check$data_dictionary)
+}
+```
+
+## Create nice index
+
+```{r index}
+line1 <- "-   **{r}** : {description}" 
+line2 <- "    -   [data dictionary]({f0}/{f1}/{y})"
+line3 <- "    -   [{d}]({f0}/{f1}/{d})\n"
+for (y in yamls) {
+  r <- str_remove(y, "\\.yaml")
+  check <- read_yaml(glue("../{y}"))
+  description <- ifelse(
+    any(names(check) == "description"),
+    check$description, 
+    "No description available.")
+  list.files("..", pattern=r) |>
+    str_subset("yaml", negate=TRUE) -> d
+  cat(glue(line1))
+  cat("\n")
+  cat(glue(line2))
+  cat("\n")
+  cat(glue(line3))
+}
+```

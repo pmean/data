@@ -1,0 +1,54 @@
+---
+data_dictionary: glycyrrhizin.csv
+
+description: >
+  This data is from a meta-analysis of the 
+  effectiveness of glycyrrhizin, an herbal
+  medicine that is thought to have some
+  anti-allergenic and immune boosting effects.
+  This study examined its use in treating
+  chronic urticaria, a condition characterized
+  by rashes and/or angiodema. The researchers
+  found 24 randomized trials addressing this
+  topic. The outcome was the total efficiency
+  rate, defined as a binary outcome based on
+  the Urticaria Symptom Score Reduction Index.
+
+source: >
+  Sijue Chen, Wei Cao, Xianjun Xiao, Lu Wang,
+  Renhong Wan, Zihao Zou, Qian Yang & Ying Li
+  (2024) A systematic review and meta-analysis
+  of efficacy and safety of compound 
+  glycyrrhizin combined with second-generation
+  non-sedated antihistamine for the treatment 
+  of chronic urticaria, Journal of 
+  Dermatological Treatment, 35:1, 
+  DOI: 10.1080/09546634.2023.2299597
+  
+format:
+  comma-delimited
+
+varnames: first row of data
+  
+missing_value_code: Not needed
+ 
+size:
+  rows: 25
+  columns: 5
+  
+vars:
+  study:
+    label: first author and year of study
+    
+  treatment_events:
+    label: number of successes in the treatment group
+  
+  treatment_total:
+    label: number of patients in the treatment group
+  
+  control_events:
+    label: number of successes in the control group
+  
+  control_total:
+    label: number of patients in the control group
+---

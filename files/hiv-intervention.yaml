@@ -1,0 +1,62 @@
+---
+data_dictionary: hiv-intervention.txt
+
+source: OzDASL website
+
+download_url: https://gksmyth.github.io/ozdasl/general/protsex.txt
+
+description: > 
+  This is a longitudinal study of an
+  intervention in 14-18 adolescents 
+  intended to increase the frequency
+  of condom protected sex. Subjects 
+  were allocated randomly to treatment
+  or control groups. All were evaluated
+  prior to the intervention, immediately 
+  after the intervention, 6 months and 
+  12 months after the intervention.The
+  outcome variable is the
+  logarithm-transformed frequency of
+  condom-protected sex ( log(Y+1) )."
+
+additional_description: https://gksmyth.github.io/ozdasl/general/protsex.html
+
+copyright: >
+  Gordon K. Smyth claims copyright on
+  all datasets at OzDASL, but you can
+  probably use this dataset under the
+  Fair Use provisions of copyright law
+  for individual educational purposes.
+
+format:
+  tab-delimited
+
+varnames:
+  first row of data
+  
+missing_value_code:
+  Not needed
+
+size:
+  rows: 20
+  columns: 5
+  
+vars:
+  BST:
+    label: treatment group
+    values:
+      1: BST intervention
+      0: control
+      
+  Pre:
+    label: Log-frequency of protected sex before the intervention
+    
+  Post:
+    label: Log-frequency of protected sex after the intervention
+    
+  FU6:
+    label: Log-frequency of protected sex reported at the 6 months follow-up
+    
+  FU12:
+    label: Log-frequency of protected sex reported at the 12 months follow-up
+---

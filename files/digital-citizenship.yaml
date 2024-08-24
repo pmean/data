@@ -1,0 +1,631 @@
+---
+data_dictionary: digital-citizenship.sav
+
+description: >
+  From the original source: This dataset was 
+  used in our study that investigated the 
+  psychometric properties of the Digital 
+  Citizenship Scale (DCS), originally 
+  developed by Choi, Glassman and Cristol.
+  1915 responses were gathered in late 2018
+  and 1820 responses with valid data from 
+  three countries were analysed (Canada, 
+  n=817; Australia, n=589; and Slovenia, 
+  n=414). The dataset also included 
+  Big-Factor-Five personality data as well.
+  
+source: > 
+  Connolly, Randy; Miller, Janet (2022), 
+  “Evaluating Digital Citizenship Scale
+  [2018]”, Mendeley Data, V1, 
+  doi: 10.17632/2v5fz56bjk.1
+  
+note: >
+  Also see Michael Joseph Dominic Roberts, Randy
+  Connolly, Joel Conley, Janet Miller. Digital 
+  Citizenship and the Big Five Personality 
+  Traits. Informatics 2023, 10(3), 58; 
+  doi: 10.3390/informatics10030058
+  
+copyright:  
+  CC BY 4.0
+
+format: 
+  proprietary (SPSS)
+  
+size:  
+  rows: 1850
+  columns: 51
+
+vars:
+  SurveyId:
+    values:   
+      1: Students (Canada)
+      2: Students (Australia)
+      3: Students (Slovenia)
+      4: SMA (Canada-Mar2019)
+      5: SMA (Australia-Mar2019)
+      6: SMA (Slovenia-Mar2019)
+      7: SMA (Canada-June2019)
+      8: SMA (Australia-June2019)
+
+  Gender:
+    values:
+      1: Male
+      2: Female
+      3: Prefer not to disclose
+      4: Other
+      
+  Age:
+    values: 
+      1: "18-20"
+      2: "21-25"
+      3: "26-30"
+      4: "31-40"
+      5: "41-50"
+      6: "51-60"
+      7: "61+"
+
+  Country:
+    values:
+      0: Other
+      1: Canada
+      2: United States
+      3: Australia
+      4: Slovenia
+
+  CountryOther:
+    label: Other country
+
+  Education:
+    values:
+      1: Did not finish high school
+      2: Graduated from high school
+      3: Some college or technical school
+      4: College or technical school graduate
+      5: Some university
+      6: Undergraduate university degree
+      7: Professional degree
+      8: Graduate degree
+      9: Other
+
+  Internet1:
+    label:
+      I can access the Internet through digital technologies
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet2:
+    label:
+      I am able to use digital technologies
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+  
+  Internet3:
+    label:
+      I can use the Internet to find information I need
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet4:
+    label:
+      I can use the Internet to find and download applications
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet5:
+    label:
+      I enjoy communicating with others online
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet6:
+    label:
+      I enjoy collaborating with others online more than I do offline
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet7:
+    label:
+      I am more informed with regard to political or social issues
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet8:
+    label:
+      I am more aware of global issues through using the Internet
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet9:
+    label:
+      I post original messages, audio, pictures, or videos
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet10:
+    label:
+      Where possible, I comment on other people’s writings
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet11:
+    label:
+      I regularly post thoughts related to political or social issues online
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet12:
+    label:
+      I express my opinions online to challenge dominant perspectives
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet13:
+    label:
+      I think online participation is an effective way to engage
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet14:
+    label:
+      I belong to online groups that are involved in political or social issues
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet15:
+    label:
+      I sometimes contact government officials
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet16:
+    label:
+      I attend political meetings or public forums
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet17:
+    label:
+      I work or volunteer for a political party
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet18:
+    label:
+      I work with others online to solve
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet19:
+    label:
+      I sign petitions online
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet20:
+    label:
+      I organize petitions online
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet21:
+    label:
+      I am more socially or politically engaged when online
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet22:
+    label:
+      I think online participation promotes offline engagement
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet23:
+    label:
+      I think online participation is an effective way to make a change
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet24:
+    label:
+      I use the Internet in order to participate in social movement/change
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet25:
+    label:
+      I think I am given to rethink my beliefs
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet26:
+    label:
+      I think the Internet reflects biases
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Internet27:
+    label:
+      I am more aware of local issues
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person1:
+    label:
+      I am someone who is reserved
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person2:
+    label:
+      I am someone who is generally trusting
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person3:
+    label:
+      I am someone who tends to be lazy
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person4:
+    label:
+      I am someone who is relaxed
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person5:
+    label:
+      I am someone with relatively few artistic interests
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person6:
+    label:
+      I am someone outgoing and sociable
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person7:
+    label:
+      I am someone who tends to find fault with others
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person8:
+    label:
+      I am someone who tends to do a thorough job
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person9:
+    label:
+      I am someone who gets nervous easily
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Person10:
+    label:
+      I am someone who has an active imagination.
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy1:
+    label:
+      I lead a purposeful and meaningful life
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy2:
+    label:
+      My social relationships are supportive and rewarding
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy3:
+    label:
+      I am engaged and interested in my daily activities
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy4:
+    label:
+      I actively contribute to the happiness of others
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy5:
+    label:
+      I am competent and capable
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy6:
+    label:
+      I am a good person and live a good life
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy7:
+    label:
+      I am optimistic about my future
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+
+  Happy8:
+    label:
+      People respect me
+    values:
+      1: Disagree strongly
+      2: Disagree
+      3: Somewhat disagree
+      4: Neither agree nor disagree
+      5: Somewhat agree
+      6: Agree
+      7: Strongly agree
+---	  

@@ -1,0 +1,12 @@
+author,study_type,art_events,art_total,nc_events,nc_total
+Frydman,case-control,11,79,166,3841
+Isaksson,case-control,77,1970,11,345
+Reubinoff,case-control,23,260,17,260
+Stojnic,case-control,80,634,56,634
+Tan,case-control,20,494,59,978
+Chen,cohort,747,10694,13402,253856
+Noli,cohort,566,8531,15959,424291
+Romundstad,cohort,419,8229,40386,1200922
+Slavov,cohort,48,402,25,523
+Stern,cohort,793,5768,19202,167362
+Zsirai,cohort,456,7838,41242,1262223

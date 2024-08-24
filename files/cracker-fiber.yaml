@@ -1,0 +1,9 @@
+---
+data_dictionary: fiber.txt
+
+description:
+  Dietary fiber
+  
+additional_description:  
+  http://lib.stat.cmu.edu/DASL/Datafiles/Fiber.html
+---

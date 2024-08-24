@@ -1,0 +1,60 @@
+---
+data_dictionary:
+  samara.txt
+  
+source: >
+  This dataset is part of the Austrasian Data and
+  Story Library (OZDASL). Please cite this data as
+  Smyth, GK (2011). Australasian Data and Story 
+  Library (OzDASL). http://www.statsci.org/data.
+  The data comes originally from Ryan, B.F., 
+  Joiner, B.L., and Rogosa, D. (1994). Minitab 
+  Handbook 3rd edition. Duxbury Press.
+
+description: >
+  From the Ryan et al article: "In autumn, small
+  winged fruit called samara fall off maple trees,
+  spinning as they go. A forest scientist studied
+  the relationship between how fast they fell and
+  their "disk loading" (a quantity based on their
+  size and weight). The samara disk loading is 
+  related to the aerodynamics of helicopters."
+  
+download_url:
+  text-format: https://gksmyth.github.io/ozdasl/general/samara.txt
+  additional-information: https://gksmyth.github.io/ozdasl/general/samara.html
+
+copyright:
+  There is no information about the copyright for this
+  dataset. You should, however, be able to use this
+  data for individual educational purposes under the
+  Fair Use guidelines of U.S. copyright law.
+
+format: 
+  tab-delimited
+
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  NA
+
+size:
+  rows: 36
+  columns: 3
+
+vars:
+  Tree:
+    label: Numeric id for individual tree
+    scale: nominal
+    range: 1 through 3
+  
+  Loading:
+    label: Disk loading
+    scale: ratio
+    range: positive real
+    
+  Velocity:
+    label: Fall velocity
+    unit: unknown
+---

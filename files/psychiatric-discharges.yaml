@@ -1,0 +1,60 @@
+---
+data_dictionary: psychiatric-patients.txt
+
+description: >
+   This dataset shows an example of left truncated
+   data for a survival model.
+   
+source: >
+  This dataset is described in a handout from
+  J.R. Stevens on left truncation. It is also
+  described in Chapter 1 of John Klein and
+  Melvin Moeschberger's book, Survival Analysis,
+  Techniques for Censored and Truncated Data.  
+  It is a subset of data included in a study by
+  Tsuang and Wilson (1977) Mortality in Patients
+  with Schizophrenia, Mania, and Depression. 
+  British Journal of Psychiatry, 130, 162-166.
+  
+download_url:
+  text: https://math.usu.edu/jrstevens/biostat/projects2013/pres_LeftTruncation.pdf
+  
+copyright:
+  Unknown. It should be safe to use this for 
+  individual educational purposes under the 
+  Fair Use provisions of U.S. Copyright law.
+
+format: 
+  tab-delimited
+  
+varnames: 
+  first row of data
+
+missing_value_code:
+  not needed
+
+size:
+  rows: 15
+  columns: 4
+
+vars:
+  sex:
+    label: sex of the patient
+    values:
+      male: 1
+      female: 2
+
+  age:
+    label: Age of the patient at time of admission
+    unit: years
+    
+  time: 
+    label: time from admission to death/discharge
+    unit: years
+    
+  death:
+    label: indicator for death
+    values: 
+      discharged: 0
+      died: 1      
+---

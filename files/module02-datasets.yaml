@@ -1,0 +1,9 @@
+---
+data_dictionary: module02-datasets.RData
+
+description:
+  This is an R binary file that contains
+  three dataframes (bump, fd, and sleep).
+  See more information in the individual
+  data dictionaries.
+---

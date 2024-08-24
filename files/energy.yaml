@@ -1,0 +1,58 @@
+---
+data_dictionary: energy.txt
+
+
+description:
+  Energy requirements while running, 
+  walking, and cycling. The datasets
+  energy01, energy02, energy03, and
+  energy04 are modifications of the
+  original data to illustrate various
+  options for data input.
+  
+additional_description:  
+  http://www.statsci.org/data/general/energy.html
+
+download_url:
+  http://www.statsci.org/data/general/energy.txt
+  
+source: 
+  JS Milton. Statistical Methods in the Biological
+  and Health Sciences, Second edition. 1992. McGraw-Hill.
+
+copyright:  
+  unknown
+
+format: 
+  space-delimited
+  
+varnames:
+  not included
+
+missing_value_code: 
+  not needed
+
+size:
+  rows: 8
+  columns: 4
+
+vars:
+  Subject:
+    label: Subject number
+    scale: positive integer
+
+  Running:
+    label: energy expended while running
+    scale: positive real
+    unit: kilocalories expended per kilometer
+  
+  Walking:
+    label: energy expended while walking
+    scale: positive real
+    unit: kilocalories expended per kilometer
+  
+  Cycling:
+    label: energy expended while cycling
+    scale: positive real
+    unit: kilocalories expended per kilometer
+---

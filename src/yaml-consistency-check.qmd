@@ -1,0 +1,103 @@
+---
+title: "Check consistency of yaml data dictionaries"
+author: "Steve Simon"
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+## Preliminaries
+
+```{r prelims}
+#| echo: false
+library(dplyr)
+library(glue)
+library(magrittr)
+library(stringr)
+library(yaml)
+```
+
+## Do all yaml files read in properly?
+
+```{r}
+fn <- list.files()
+yaml_files <- str_subset(fn, "yaml$")
+yaml_roots <- str_replace(yaml_files, "\\..*", "")
+n_yamls <- length(yaml_files)
+
+dictionaries <- NULL
+for (i in 1:n_yamls) {
+  dictionaries[[yaml_roots[i]]] <- 
+    read_yaml(yaml_files[i])
+}
+```
+
+## Check first level names
+
+```{r check-names}
+recommended_fields <- c(
+  "data_dictionary",
+  "description",
+  "additional_description",
+  "note",
+  "source",
+  "source_url",
+  "repository",
+  "repository_url",
+  "download_url",
+  "copyright",
+  "format",
+  "varnames",
+  "missing_value_code",
+  "size",
+  "vars")
+all_names <- data.frame(
+  fields=recommended_fields,
+  field_order=1:length(recommended_fields))
+```
+
+```{r}
+yaml_aggregate <- NULL
+
+for (yaml_root in yaml_roots) {
+  dictionary <- dictionaries[[yaml_root]]
+  dd_names <- names(dictionary)
+  yaml_aggregate %<>% 
+    bind_rows(
+      data.frame(
+        files=yaml_root, 
+        fields=names(dictionary)))
+}
+```
+
+```{r}
+for (yaml_root in yaml_roots) {
+  yaml_aggregate %>%
+    filter(files==yaml_root) %>%
+    full_join(all_names, by="fields") %>% 
+    select(fields, field_order, files) %>%
+    arrange(field_order) %>%
+    print
+  cat("\n\n")
+}
+```
+
+## Check size consistency
+
+```{r}
+yaml_size <- data.frame(
+  files=yaml_roots,
+  size_ncols=-1,
+  size_vars=-1)
+
+for (i in 1:n_yamls) {
+  yaml_size$size_ncols[i] <- 
+    paste0(dictionaries[[i]]$size$columns, "")
+  yaml_size$size_vars[i] <- 
+    length(dictionaries[[i]]$vars)
+}
+yaml_size
+```
+
+##

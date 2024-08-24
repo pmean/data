@@ -1,0 +1,32 @@
+---
+data_dictionary: body.txt
+
+description:  
+  Various body dimensions and body fat measurements
+  
+additional_description:  
+  http://jse.amstat.org/datasets/body.txt
+
+copyright:  
+  According to the Journal of Statistics Education,
+  the author of the original article retains
+  copyright. Your use for individual educational
+  purposes should be fine under the Fair Use
+  provisions of copyright law.
+
+download_url: 
+  http://www.amstat.org/publications/jse/datasets/body.dat.txt
+
+format: 
+  fixed_width text
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+
+size:
+  rows: 507
+  columns: 25
+---

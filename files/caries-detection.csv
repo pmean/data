@@ -1,0 +1,12 @@
+caries,paper,tp,fp,fn,tn
+Overall,Panyarak,115,20,11,34
+Overall,Estai,293,49,36,301
+Overall,Suttapak,347,16,13,74
+Overall,Bayraktar,271,42,104,2283
+Overall,Chen,388,116,148,1435
+Dentin,Panyarak,79,6,11,84
+Dentin,Suttapak,71,16,19,344
+Dentin,Chen,225,163,44,72
+Enamel,Panyarak,27,18,14,121
+Enamel,Suttapak,69,23,21,337
+Enamel,Chen,163,225,72,44

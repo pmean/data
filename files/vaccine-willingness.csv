@@ -1,0 +1,8 @@
+author,vaccine_type,willing_mean,willing_sd,willing_n,unwilling_mean,unwilling_sd,unwilling_n
+Achrekar,booster,15.29,3.19,384,13.87,3.37,303
+Batra,booster,15.82,3.5,292,12.8,3.99,209
+Yadete,booster,3.1,0.75,1322,2.61,0.74,816
+Biasio,primary,2.93,0.7,816,2.86,0.7,69
+Correa-Rodriguez,primary,2.6,0.74,322,2.5,0.78,106
+Gendler,primary,3.27,0.61,366,3.18,0.6,154
+Gutierrez,primary,3.14,0.76,2149,3.09,0.82,365

@@ -1,0 +1,87 @@
+---
+data_dictionary: digital-citizenship-revised.sav
+
+description: >
+  This is a modification/simplification of
+  the digital-citizenship data set. An
+  aggregate variable, internet_sum, was
+  computed as the sum of the 27 internet 
+  variables. The categories for Age were 
+  recoded down into three categories. Rows
+  associated with Country=Other and United
+  States were removed. Many
+  other variables were removed.
+  
+note: >
+  Also see Michael Joseph Dominic Roberts, Randy
+  Connolly, Joel Conley, Janet Miller. Digital 
+  Citizenship and the Big Five Personality 
+  Traits. Informatics 2023, 10(3), 58; 
+  doi: 10.3390/informatics10030058
+  
+source: > 
+  Connolly, Randy; Miller, Janet (2022), 
+  “Evaluating Digital Citizenship Scale
+  [2018]”, Mendeley Data, V1, 
+  doi: 10.17632/2v5fz56bjk.1
+  
+copyright:  
+  CC BY 4.0
+
+format: 
+  proprietary (SPSS)
+
+size:
+  rows: 1837
+  columns: 6
+
+vars:
+  Gender:
+    values:
+      1: Male
+      2: Female
+      3: Prefer not to disclose
+      4: Other
+      
+  Age:
+    values: 
+      1: "18-20"
+      2: "21-25"
+      3: "26-30"
+      4: "31-40"
+      5: "41-50"
+      6: "51-60"
+      7: "61+"
+
+  Country:
+    values:
+      1: Canada
+      3: Australia
+      4: Slovenia
+
+  Education:
+    values:
+      1: Did not finish high school
+      2: Graduated from high school
+      3: Some college or technical school
+      4: College or technical school graduate
+      5: Some university
+      6: Undergraduate university degree
+      7: Professional degree
+      8: Graduate degree
+      9: Other
+
+  internet_sum:
+    label:
+      Aggregate total across 27 internet questions
+    range:
+      27 through 189
+    direction:
+      larger values are better
+  
+  age_regrouped:
+    values:
+      - "18-20"
+      - "21-40"
+      - "41+"
+---	  

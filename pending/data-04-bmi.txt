@@ -1,0 +1,25 @@
+This file is included as part of the base package of R and was converted by Steve Simon to a text file. There are no details about who created the data set. The code for R is published under an open source license, and the datasets included with R are presumably covered by the same license.
+
+This is a space delimited data file. There are 15 rows and 3 columns of data.
+
+The first variable is the sample number (1 to 15). The second variable is the height of an adult female (inches). The third variable is the weight (pounds). The variable names are not included at the top of the data.
+
+This data dictionary was written by Steve Simon on 2023-09-10 and is placed in the public domain.
+
+Please be sure to skip past this documentation while importing the data.
+
+1 58 115
+2 59 117
+3 60 120
+4 61 123
+5 62 126
+6 63 129
+7 64 132
+8 65 135
+9 66 139
+10 67 142
+11 68 146
+12 69 150
+13 70 154
+14 71 159
+15 72 164

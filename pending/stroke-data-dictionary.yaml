@@ -1,0 +1,7 @@
+---
+data_dictionary: stroke.txt
+
+description:
+  Recovery of Patients from Stroke
+  http://www.statsci.org/data/oz/stroke.html
+---

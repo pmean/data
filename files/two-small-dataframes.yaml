@@ -1,0 +1,9 @@
+---
+data_dictionary: two-small-data-frames.RData
+
+description:
+  This is an R binary file that contains two 
+  dataframes (bump, fd). See the individual
+  data dictionaries for more details.
+
+---

@@ -1,0 +1,78 @@
+---
+data_dictionary:
+  sleep.txt
+  
+source: >
+  This dataset is part of the Austrasian Data and
+  Story Library (OZDASL). Please cite this data as
+  Smyth, GK (2011). Australasian Data and Story 
+  Library (OzDASL). http://www.statsci.org/data.
+  The data comes originally from Allison, T., and
+  Cicchetti, D. V. (1976). Sleep in mammals. 
+  ecological and constitutional correlates. 
+  Science 194 (November 12), 732-734.
+
+description: >
+  This dataset has information about sleep patterns
+  in 62 common mammals, along with other information
+  that might help you understand what influences
+  variations in sleep.
+  
+additional_description:
+  http://www.statsci.org/data/general/sleep.html
+
+download_url:
+  http://www.statsci.org/data/general/sleep.txt
+
+copyright:
+  unknown
+
+format: 
+  delimiter: tab
+  varnames: included in the first row of data
+  missing_value_code: NA
+  rows: 62
+  columns: 11
+
+vars:
+  Species:
+    label: Species of mammal
+    
+  BodyWt:
+    label: Body weight
+    unit: kg
+    
+  BrainWt:
+    label: Brain weight
+    unit: g
+    
+  NonDreaming:
+    label: Time spent in non-dreaming sleep
+    unit: hours
+    
+  Dreaming:
+    label: Time spent in dreaming sleep
+    unit: hours
+    
+  TotalSleep:
+    label: Total time spent in sleep
+    unit: hours
+    
+  LifeSpan:
+    unit: years
+    
+  Gestation:
+    unit: days
+
+  Predation:
+    scale: likert
+    range: 1-5
+
+  Exposure:
+    scale: likert
+    range: 1-5
+    
+  Danger:
+    scale: likert
+    range: 1-5
+---

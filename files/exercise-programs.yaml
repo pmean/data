@@ -1,0 +1,70 @@
+---
+data_dictionary: exercise.sas7bdat
+
+source: 
+  https://stats.oarc.ucla.edu/sas/seminars/analyzing-and-visualizing-interactions/
+
+description: > 
+  This dataset is used in a tutorial about
+  interactions. A description from the
+  original source: The dataset consists of
+  data describing the amount of weight loss
+  achieved by 900 participants in a
+  year-long study of 3 different exercise
+  programs, a jogging program, a swimming
+  program, and a reading program which
+  serves as a control activity. Researchers
+  were interested in how the weekly number
+  of hours subjects chose to exercise
+  predicted weight loss.
+
+copyright:
+  No copyright is stated explicitly. You 
+  should be able to use this data for
+  individual educational purposes under the
+  Fair Use guidelines of U.S. copyright law.
+
+format:
+  proprietary (SAS)
+
+vars: 
+  loss: 
+    label: Average weekly weight loss
+    note: negative scores denote weight gain
+    scale: real
+    unit: unknown, presumably pounds
+    
+  hours: 
+    label: weekly average amount of exercise
+    unit: hours
+
+  effort: 
+    label: weekly effort scores
+    note: self report
+    scale: non-negative integer
+    range: 0 through 50
+    direction:
+      50 denoting maximum physical effort
+    
+  prog: 
+    label: exercise program
+    note: reading is a control
+    values:
+      Jogging: 1
+      Swimming: 2
+      Reading: 3
+
+  female: 
+    scale: binary categorical
+    values:
+      male: 0
+      female: 1
+      
+  satisfied: 
+    label: satisfied with weight lost
+    scale: binary categorical
+    values:
+      Dissatisfied: 0
+      Satisfied: 1
+      
+---

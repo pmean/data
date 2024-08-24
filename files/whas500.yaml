@@ -1,0 +1,169 @@
+---
+data_dictionary: whas500.dat
+
+description:
+  The data represents survival times for a 500 patient 
+  subset of data from the Worcester Heart Attack
+  Study. You can find more information about this
+  data set in Chapter 1 of Hosmer, Lemeshow, and
+  May.
+
+source: 
+  This data set is very similar to whas100. It is a
+  larger subset with more variables. For a 
+  description of the context of this file and where
+  you can find it, please refer to 
+  data-dictionary-whas100.yaml.
+
+download_url:
+  text-format: ftp://ftp.wiley.com/public/sci_tech_med/survival/
+  sas-format: https://stats.idre.ucla.edu/wp-content/uploads/2016/02/asa2_sas.zip
+  spss-format: https://stats.idre.ucla.edu/wp-content/uploads/2016/02/asa2_spss.zip
+
+copyright: 
+  There is no explicit license for when and how you
+  can use this data, but it is presented here under
+  the Fair Use provisions of U.S. Copyright law.
+
+format: 
+  space-delimited
+  
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  Not needed
+
+size:
+  rows: 500
+  columns: 22
+
+vars:
+  id: 
+    label: a sequential code from 1 to 100
+
+  age:
+    scale: ratio
+    label: Age at Admission
+    unit: years
+
+  gender:
+    scale: binary
+    value:
+      Male: 0
+      Female: 1
+
+  hr:
+    scale: ratio
+    label: Initial Heart Rate
+    unit: Beats per minute
+
+  sysbp:
+    scale: ratio
+    label: Initial Systolic Blood Pressure
+    unit: mmHg
+
+  diasbp:
+    scale: ratio
+    label: Initial Diastolic Blood Pressure
+    unit: mmHg
+
+  bmi:
+    scale: ratio
+    label: Body Mass Index
+    unit: kg/m^2
+
+  cvd:
+    scale: binary
+    label: History of Cardiovascular Disease
+    value:
+      No: 0
+      Yes: 1
+
+  afb:
+    scale: binary
+    label: Atrial Fibrillation
+    value:
+      No: 0
+      Yes: 1
+
+  sho:
+    scale: binary
+    label: Cardiogenic Shock
+    value:
+      No: 0
+      Yes: 1
+
+  chf:
+    scale: binary
+    label: Congestive Heart Complications
+    value:
+      No: 0
+      Yes: 1
+
+  av3:
+    scale: binary
+    label: Complete Heart Block
+    value:
+      No: 0
+      Yes: 1
+
+  miord:
+    scale: binary
+    label: MI Order
+    value:
+      First: 0
+      Recurrent: 1
+
+  mitype:
+    scale: binary
+    label: MI Type
+    value:
+      non Q-wave: 0
+      Q-wave: 1
+
+  year:
+    scale: ordinal
+    label: Cohort Year
+    value:
+      yr1997: 1
+      yr1999: 2
+      yr2001: 3
+
+  admitdate:
+    label: Admission Date
+    format: mm/dd/yyyy
+
+  disdate:
+    label: Hospital Discharge Date
+    format: mm/dd/yyyy
+
+  fdate:
+    label: Date of last Follow Up
+    format: mm/dd/yyyy
+
+  los:
+    scale: ratio
+    label: Length of Hospital Stay
+    unit: Days
+
+  dstat:
+    scale: binary
+    label: Discharge Status from Hospital
+    value:
+      Alive: 0
+      Dead: 1
+
+  lenfol: 
+    scale: ratio
+    label: Follow Up Time
+    unit: days
+
+  fstat: 
+    scale: binary
+    label: Vital Satus
+    value:
+      Alive: 0
+      Dead: 1
+
+---

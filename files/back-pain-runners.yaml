@@ -1,0 +1,58 @@
+---
+data_dictionary: backpain.csv
+
+description:
+  The study recruited runners with lower back pain and 
+  found matching subjects among runners without lower 
+  back pain and among a sedentary group of adults.
+
+additional_description:
+  http://www.statsci.org/data/oz/backpain.html
+
+note:
+  The file backpain.txt was originally from the OzDASL
+  (Australian Data and Story Library) website. The 
+  version stored here is greatly simplified from the 
+  original version. If you are curious, you can find a
+  full data dictionary and a link to the full dataset at
+  http://www.statsci.org/data/oz/backpain.html
+
+download_url:
+  http://www.statsci.org/data/oz/backpain.txt
+
+copyright:
+  unknown
+
+format: 
+  comma-delimited
+
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  NA
+
+size:
+  rows: 33
+  columns: 6
+
+vars:
+  Subject: 
+    label: Subject's id number
+    
+  Group: 
+    label: Exercise group
+    values: NoPain, Pain, or Sedentary
+
+  Match: 
+    label: Code for which subjects were matched together
+    
+  Age: 
+    unit: years
+    
+  Height: 
+    unit: cm
+
+  Weight: 
+    unit: kg
+---

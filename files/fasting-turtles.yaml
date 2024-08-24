@@ -1,0 +1,57 @@
+---
+data_dictionary: fasting-turtles.txt
+
+description: >
+  Plasma Protein of Fasting Turtles. 
+  Four male and four female turtles 
+  had their plasma protein measured 
+  while they were well fed and after 
+  ten and twenty days of fasting.
+
+additional_description:
+  https://gksmyth.github.io/ozdasl/general/turtles.html
+
+source: >
+  "Zar, J. H. (1999). Biostatistical Analysis,
+  Fourth Edition. Prentice-Hall International, 
+  Exercise 14.4."
+
+download_url: https://gksmyth.github.io/ozdasl/general/turtles.txt
+
+copyright: >
+  Gordon K. Smyth claims copyright on
+  all datasets at OzDASL, but you can
+  probably use this dataset under the
+  Fair Use provisions of copyright law
+  for individual educational purposes.
+  
+format:
+  tab-delimited
+
+varnames: first row of data
+  
+missing_value_code: Not needed
+
+size:
+  rows: 8
+  columns: 5
+  
+vars:
+  Subject:
+    label: Subject id (1 to 8)
+    
+  Sex:
+    values:
+    -  Male
+    -  Female
+
+  Fed:
+    label: Plasma protein while well fed
+    units: mg/ml
+    
+  Fasted10:
+    label: Plasma protein after fasting 10 days
+    
+  Fasted20:
+    label: Plasma protein after fasting 20 days
+---

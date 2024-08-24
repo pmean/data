@@ -1,0 +1,13 @@
+---
+data_dictionary: balance2.txt
+
+description:
+  Cholesterol Levels after Heart Attack
+  
+additional_description:  
+  http://www.statsci.org/data/general/cholest.html
+
+download_url:
+  http://www.statsci.org/data/general/cholestg.txt
+  www.pmean.com/15/images/day4cholesterol.txt
+---

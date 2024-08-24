@@ -1,0 +1,32 @@
+---
+data_dictionary: fly3.txt
+
+description:
+  This dataset provides a simple example
+  of survival and censoring. For more 
+  details, refer to the fly1 data 
+  dictionary.
+  
+format: 
+  space-delimited
+  
+varnames: 
+  not included
+  
+missing_value_code: 
+  not needed
+
+size:
+  rows: 25
+  columns: 2
+
+vars:
+  day:
+    label: Time until death or escape
+    unit: days
+  censor:
+    label: Indicator for death or escape
+    value:
+      Escaped: 0
+      Died: 1
+---

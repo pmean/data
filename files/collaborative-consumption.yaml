@@ -1,0 +1,259 @@
+---
+data_dictionary: collaborative-consumption.xlsx
+
+description: >
+  From the original source: "The data set 
+  presents data collected by online survey 
+  with a questionnaire using Likert scale. 
+  The survey sample included 184 adults (18+),
+  active and potential users of different 
+  sharing services platforms."
+  
+source: >
+  Saginova, Olga (2020), “Dataset on the 
+  questionnaire-based survey of sharing 
+  services users’ motivation”, Mendeley Data,
+  V1, doi: 10.17632/c5k8wjrhd9.1 
+
+copyright: >
+  CC By 4.0
+  
+format: 
+  proprietary (Excel)
+  
+varnames: first row of data
+
+missing_value_code:
+  not applicable
+  
+size:  
+  rows: 184
+  columns: 31
+
+vars:
+  id:
+    scale: Numerical sequence, 1 through 184
+
+  use_sharing:  
+    label: Do you use sharing economy platforms and services
+    values: 
+      - no
+      - yes
+    
+  which_services:  
+    multiple_response: 
+      - "bike-sharing"
+      - "car-sharing"
+      - "cloud services"
+      - "coliving"
+      - "couud services"
+      - "coworking"
+      - "house-sharing"
+      - "house-sharing/renting"
+      - "I use some, but I can't say which ones"
+      - none of the above                 
+
+  how_often:  
+    label: How often do you used them
+    values: 
+      - several times a week
+      - several times a month
+      - several tomes a month
+      - several times a year
+      - once a year
+      - tried once or twice
+    
+  age:  
+    label: How old are you?
+    values:
+      - "18-25"
+      - "26-35"
+      - "36-45"
+      - "46-60"
+      - "over 60"
+
+  gender:  
+    values: 
+      - F
+      - M
+    
+  employment_status:  
+    label: Are you employed?
+    values:
+      - "employed"
+      - "entrepreneur"
+      - "full-time student"
+      - "self-employed"
+      - "temporarily unemployed"
+      - "unemployed"
+
+  wise_move:  
+    label: 
+      All things considered, I find participating
+      in collaborative consumption to be a wise move. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+    
+  good_thing:  
+    label: 
+      All things considered, I think participating
+      in collaborative consumption is a good thing. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  makes_sense:  
+    label: 
+      Overall, sharing goods and services within a
+      collaborative consumption community makes sense.
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  better_mode:  
+    label:
+      Collaborative consumption is a better mode of 
+      consumption than selling and buying
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  continue_in_future:  
+    label:
+      All things considered, I expect to continue
+      collaborative consumption often in the future. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+
+  engaging_more_frequently:  
+    label: 
+      I can see myself engaging in collaborative 
+      consumption more frequently in the future. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+
+  frequently_participate:  
+    label: 
+      It is likely that I will frequently participate
+      in collaborative consumption communities in the
+      future
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  save_resources:  
+    label: 
+      Collaborative consumption helps save natural
+      resources. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+
+  sustainable_mode:  
+    label: 
+      Collaborative consumption is a sustainable
+      mode of consumption. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+    
+  ecological:  
+    label: 
+      Collaborative consumption is ecological
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+
+  energy_efficient:  
+    label:
+      Collaborative consumption is efficient
+      in terms of using energy
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  environmentally_friendly:  
+    label: 
+      Collaborative consumption is 
+      environmentally friendly. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  enjoyable:  
+    label:
+      I think collaborative consumption is
+      enjoyable. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  interesting:  
+    label: 
+      I think collaborative consumption is
+      interesting. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  fun:  
+    label:
+      I think collaborative consumption is 
+      fun. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  pleasant:  
+    label: 
+      I think collaborative consumption is 
+      pleasant
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  improves_image:  
+    label: 
+      Contributing to my collaborative 
+      consumption community improves my image
+      within the community
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  gain_recognition:  
+    label:
+      I gain recognition from contributing to 
+      my collaborative consumption community
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  earn_respect:  
+    label: 
+      I would earn respect from others by 
+      sharing with other people in my collaborative
+      consumption
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  more_prestige:  
+    label:
+      People in the community who contribute have 
+      more prestige than those who do not
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  save_money:  
+    label:
+      I can save money if I participate in 
+      collaborative consumption. 
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  financial_benefits:  
+    label: 
+      My participation in collaborative consumption
+      benefits me financially
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+    
+  improve_situation:  
+    label: 
+      My participation in collaborative consumption
+      can improve my economic situation
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+      
+  saves_time:  
+    label:
+      My participation in collaborative consumption
+      saves me time
+    scale: Likert, 1-7
+    direction: Larger values are more favorable
+---

@@ -1,0 +1,53 @@
+---
+data_dictionary: carotid-plaque.xls
+
+description: >
+  The details on this dataset are a bit vague
+  because the article associated with this data
+  is hidden behind a paywall. Ultarsonagraphy
+  was used to identify carotid plaque and/or
+  cerebrovascular disease. The imaging produced
+  measures of Von Mises strain. The key measure
+  is peak, which appears to be an average or a
+  maximum over four or five cycles. There are
+  separate measurements at systole and diastole.
+  
+additional_description:
+  https://dx.doi.org/10.1016/j.ultrasmedbio.2019.01.007
+
+download_url:
+  https://data.mendeley.com/datasets/y7b6hjnxxj/1
+
+format: 
+  proprietary (Excel)
+  
+size:
+  rows: 70
+  columns: 5
+
+note: >
+  There are three separate worksheets. The first
+  and second are measurements done during systole
+  and diastole. The third sheet shows calculations
+  for various receiver operating characteristic 
+  curves.
+
+vars:
+  cerebral infarction: 
+    label: Disease or control group
+    values:
+      0: control
+      1: cerebrovascular disease
+      
+  Peak:
+    label: Mean or maximum
+  
+  CV:
+    label: Coefficient of variation
+    
+  Skew:
+    label: Skewness
+    
+  Kurt:
+    label: Kurtosis
+---

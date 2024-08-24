@@ -1,0 +1,18 @@
+---
+data_dictionary: energy04.csv
+
+description:
+  Energy requirements while running, 
+  walking, and cycling. This dataset
+  is a modification of the original
+  data to illustrate various options
+  for data input. See the energy01
+  data dictionary for more details.
+
+format: 
+  comma-delimited
+  
+varnames: 
+  first row of data
+---
+

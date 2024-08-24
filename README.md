@@ -1,0 +1,356 @@
+# datasets
+
+This repository stores various datasets that I use in my talks and my classes. It does not include any datasets that I use in my private consulting practice. Those datasets are assumed to be owned by the client and would only be stored in a private repository.
+
+I will eventually consolidate all the datasets that I have stored in various other repositories here. Some of the repositories that I need to move data from include
+
+-   [classes][cla]
+-   [data-dictonaries][dat]
+-   [introduction-to-r][inr]
+-   [introduction-to-sas][isa]
+-   [introduction-to-sql][isq]
+-   [survival-models][sur]
+
+[cla]: https://github.com/pmean/classes
+[dat]: https://github.com/pmean/data-dictionaries
+[inr]: https://github.com/pmean/introduction-to-r
+[isa]: https://github.com/pmean/introduction-to-sas
+[isq]: https://github.com/pmean/introduction-to-sql
+[sur]: https://github.com/pmean/survival-models
+
+For many of the datasets in this repository, the copyright is not clearly stated anywhere that I could find. Use by individuals for educational purposes is probably acceptable under the Fair Use provisions of copyright law.
+
+If you own the copyright to any of these datasets and wish to clarify the conditions under which they can be used, please contact me (mail@pmean.com). If I am not allowed to store your data on my repository, I would be glad to remove your dataset.
+
+Here are the datasets in this repository so far:
+
+-   **absorbent-paper**: Foot progression angle (FPA) is typically measured using an expensive pressure platform, but this dataset examines a simpler approach using water, absorbent  paper, and a goniometer. Thirteen  children were assessed both on the  left foot and the right foot. This was  repeated two weeks later. In this study, all the assessments were negative,  representing in-toeing gait.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/absorbent-paper.yaml)
+    -   [absorbent-paper.csv](https://raw.githubusercontent.com/pmean/datasets/master/absorbent-paper.csv)
+-   **airline-bumping**: This dataset shows the number of times passengers were "bumped" from an airline flight. Bumping occurs when an airline overbooks reservations for a flight. Normally, the airline will ask for volunteers who will agree to take a later flight in exchange for cash or travel vouchers. But if no one volunteers, airlines will involuntarily bump passengers from the flight.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/airline-bumping.yaml)
+    -   [airline-bumping-download-from-web.Rmd](https://raw.githubusercontent.com/pmean/datasets/master/airline-bumping-download-from-web.Rmd)
+    -   [airline-bumping-upload-to-sqlite.Rmd](https://raw.githubusercontent.com/pmean/datasets/master/airline-bumping-upload-to-sqlite.Rmd)
+    -   [airline-bumping.txt](https://raw.githubusercontent.com/pmean/datasets/master/airline-bumping.txt)
+-   **albuquerque-housing**: House prices in Albuquerque in 1994.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing.yaml)
+    -   [albuquerque-housing-lara.txt](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing-lara.txt)
+    -   [albuquerque-housing-with-means.sav](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing-with-means.sav)
+    -   [albuquerque-housing-with-residuals.sav](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing-with-residuals.sav)
+    -   [albuquerque-housing.csv](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing.csv)
+    -   [albuquerque-housing.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing.sas7bdat)
+    -   [albuquerque-housing.sav](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing.sav)
+    -   [albuquerque-housing.txt](https://raw.githubusercontent.com/pmean/datasets/master/albuquerque-housing.txt)
+-   **art-malpresentations**: Assisted reproductive technology (ART) has helped many infertile couples, but there are concerns about the risks during pregnancy and child birth. This paper found 11 studies that examined whether the risk of malpresentation (e.g., breech births) was higher in ART pregnancies compared to natural conception (NC).
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/art-malpresentations.yaml)
+    -   [art-malpresentations.csv](https://raw.githubusercontent.com/pmean/datasets/master/art-malpresentations.csv)
+-   **back-pain-runners**: The study recruited runners with lower back pain and found matching subjects among runners without lower back pain and among a sedentary group of adults.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/back-pain-runners.yaml)
+    -   [back-pain-runners.csv](https://raw.githubusercontent.com/pmean/datasets/master/back-pain-runners.csv)
+-   **balance-measures-tall**: See balance1-data-dictionary.yaml
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/balance-measures-tall.yaml)
+    -   [balance-measures-tall.txt](https://raw.githubusercontent.com/pmean/datasets/master/balance-measures-tall.txt)
+-   **balance-measures-wide**: The study examined balance for subjects on two different floor conditions (normal or foam) and with three different levels of sight (eyes open, eyes closed, or closed dome). Each of these conditions was replicated twice. The outcome measure was an ordinal variable on a scale from 1 to 4.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/balance-measures-wide.yaml)
+    -   [balance-measures-wide.txt](https://raw.githubusercontent.com/pmean/datasets/master/balance-measures-wide.txt)
+-   **body-dimensions**: Various body dimensions and body fat measurements
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/body-dimensions.yaml)
+    -   [body-dimensions.txt](https://raw.githubusercontent.com/pmean/datasets/master/body-dimensions.txt)
+-   **breast-feeding-preterm**: This data comes from a research study done at Children's Mercy Hospital and St. Luke's Medical Center. This was a study of breast feeding in  pre-term infants. Infants were randomized into either a treatment group (NG tube) or a control group (Bottle). Infants in the NG tube group  were fed in the hospital via their nasogastral tube when the mother was not available for breast feeding. Infants in the bottle group received bottles when the mothers were not available. Both groups were monitored for six months after discharge from the hospital.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/breast-feeding-preterm.yaml)
+    -   [breast-feeding-preterm.csv](https://raw.githubusercontent.com/pmean/datasets/master/breast-feeding-preterm.csv)
+-   **burger-calories**: Fat, sodium, and calories for various  fast food hamburgers.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/burger-calories.yaml)
+    -   [burger-calories.txt](https://raw.githubusercontent.com/pmean/datasets/master/burger-calories.txt)
+-   **caries-detection**: These data represent the diagnostic  performance of artificial intelligence models for caries detection in bitewing radiographs. Five studies were identified for a sytematic overview.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/caries-detection.yaml)
+    -   [caries-detection.csv](https://raw.githubusercontent.com/pmean/datasets/master/caries-detection.csv)
+    -   [caries-detection.xlsx](https://raw.githubusercontent.com/pmean/datasets/master/caries-detection.xlsx)
+-   **carotid-plaque**: The details on this dataset are a bit vague because the article associated with this data is hidden behind a paywall. Ultarsonagraphy was used to identify carotid plaque and/or cerebrovascular disease. The imaging produced measures of Von Mises strain. The key measure is peak, which appears to be an average or a maximum over four or five cycles. There are separate measurements at systole and diastole.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/carotid-plaque.yaml)
+    -   [~$carotid-plaque.xlsx](https://raw.githubusercontent.com/pmean/datasets/master/~$carotid-plaque.xlsx)
+    -   [carotid-plaque.xlsx](https://raw.githubusercontent.com/pmean/datasets/master/carotid-plaque.xlsx)
+-   **cholesterol-after-heart-attack**: Cholesterol Levels after Heart Attack
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/cholesterol-after-heart-attack.yaml)
+    -   [cholesterol-after-heart-attack-data-dictionary.md](https://raw.githubusercontent.com/pmean/datasets/master/cholesterol-after-heart-attack-data-dictionary.md)
+    -   [cholesterol-after-heart-attack.csv](https://raw.githubusercontent.com/pmean/datasets/master/cholesterol-after-heart-attack.csv)
+    -   [cholesterol-after-heart-attack.sqlite](https://raw.githubusercontent.com/pmean/datasets/master/cholesterol-after-heart-attack.sqlite)
+    -   [cholesterol-after-heart-attack.txt](https://raw.githubusercontent.com/pmean/datasets/master/cholesterol-after-heart-attack.txt)
+-   **cigarette-measurements**: Information on tar and nicotine for 11 brands of cigarettes.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/cigarette-measurements.yaml)
+    -   [cigarette-measurements-data-dictionary.txt](https://raw.githubusercontent.com/pmean/datasets/master/cigarette-measurements-data-dictionary.txt)
+    -   [cigarette-measurements.csv](https://raw.githubusercontent.com/pmean/datasets/master/cigarette-measurements.csv)
+    -   [cigarette-measurements.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/cigarette-measurements.sas7bdat)
+    -   [cigarette-measurements.txt](https://raw.githubusercontent.com/pmean/datasets/master/cigarette-measurements.txt)
+-   **collaborative-consumption**: From the original source: "The data set  presents data collected by online survey  with a questionnaire using Likert scale.  The survey sample included 184 adults (18+), active and potential users of different  sharing services platforms."
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/collaborative-consumption.yaml)
+    -   [collaborative-consumption.sav](https://raw.githubusercontent.com/pmean/datasets/master/collaborative-consumption.sav)
+    -   [collaborative-consumption.xlsx](https://raw.githubusercontent.com/pmean/datasets/master/collaborative-consumption.xlsx)
+-   **cracker-bloat**: This data set shows side effects of specially prepared diet crackers.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/cracker-bloat.yaml)
+    -   [cracker-bloat.txt](https://raw.githubusercontent.com/pmean/datasets/master/cracker-bloat.txt)
+-   **cracker-fiber**: Dietary fiber
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/cracker-fiber.yaml)
+    -   [cracker-fiber.txt](https://raw.githubusercontent.com/pmean/datasets/master/cracker-fiber.txt)
+-   **digital-citizenship-revised**: This is a modification/simplification of the digital-citizenship data set. An aggregate variable, internet_sum, was computed as the sum of the 27 internet  variables. The categories for Age were  recoded down into three categories. Rows associated with Country=Other and United States were removed. Many other variables were removed.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship-revised.yaml)
+    -   [digital-citizenship-revised.sav](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship-revised.sav)
+-   **digital-citizenship**: From the original source: This dataset was  used in our study that investigated the  psychometric properties of the Digital  Citizenship Scale (DCS), originally  developed by Choi, Glassman and Cristol. 1915 responses were gathered in late 2018 and 1820 responses with valid data from  three countries were analysed (Canada,  n=817; Australia, n=589; and Slovenia,  n=414). The dataset also included  Big-Factor-Five personality data as well.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship.yaml)
+    -   [digital-citizenship-revised.sav](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship-revised.sav)
+    -   [digital-citizenship.csv](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship.csv)
+    -   [digital-citizenship.sav](https://raw.githubusercontent.com/pmean/datasets/master/digital-citizenship.sav)
+-   **energy**: Energy requirements while running, walking, and cycling. The datasets energy01, energy02, energy03, and energy04 are modifications of the original data to illustrate various options for data input.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/energy.yaml)
+    -   [energy.txt](https://raw.githubusercontent.com/pmean/datasets/master/energy.txt)
+    -   [energy01.csv](https://raw.githubusercontent.com/pmean/datasets/master/energy01.csv)
+    -   [energy01.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy01.sas7bdat)
+    -   [energy02.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy02.sas7bdat)
+    -   [energy02.tsv](https://raw.githubusercontent.com/pmean/datasets/master/energy02.tsv)
+    -   [energy03.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy03.sas7bdat)
+    -   [energy03.txt](https://raw.githubusercontent.com/pmean/datasets/master/energy03.txt)
+    -   [energy04.csv](https://raw.githubusercontent.com/pmean/datasets/master/energy04.csv)
+    -   [energy04.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy04.sas7bdat)
+-   **energy01**: Energy requirements while running, walking, and cycling. This dataset and enerfy02, energy03, and energy04 are modifications of the original data to illustrate various options for data input.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/energy01.yaml)
+    -   [energy01.csv](https://raw.githubusercontent.com/pmean/datasets/master/energy01.csv)
+    -   [energy01.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy01.sas7bdat)
+-   **energy02**: Energy requirements while running, walking, and cycling. This dataset is a modification of the original data to illustrate various options for data input. See the energy01 data dictionary for more details.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/energy02.yaml)
+    -   [energy02.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy02.sas7bdat)
+    -   [energy02.tsv](https://raw.githubusercontent.com/pmean/datasets/master/energy02.tsv)
+-   **energy03**: Energy requirements while running, walking, and cycling. This dataset is a modification of the original data to illustrate various options for data input. See the energy01 data dictionary for more details.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/energy03.yaml)
+    -   [energy03.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy03.sas7bdat)
+    -   [energy03.txt](https://raw.githubusercontent.com/pmean/datasets/master/energy03.txt)
+-   **energy04**: Energy requirements while running, walking, and cycling. This dataset is a modification of the original data to illustrate various options for data input. See the energy01 data dictionary for more details.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/energy04.yaml)
+    -   [energy04.csv](https://raw.githubusercontent.com/pmean/datasets/master/energy04.csv)
+    -   [energy04.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/energy04.sas7bdat)
+-   **exercise-programs**: This dataset is used in a tutorial about interactions. A description from the original source: The dataset consists of data describing the amount of weight loss achieved by 900 participants in a year-long study of 3 different exercise programs, a jogging program, a swimming program, and a reading program which serves as a control activity. Researchers were interested in how the weekly number of hours subjects chose to exercise predicted weight loss.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/exercise-programs.yaml)
+    -   [exercise-programs.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/exercise-programs.sas7bdat)
+    -   [exercise-programs.sav](https://raw.githubusercontent.com/pmean/datasets/master/exercise-programs.sav)
+-   **fasting-turtles**: Plasma Protein of Fasting Turtles.  Four male and four female turtles  had their plasma protein measured  while they were well fed and after  ten and twenty days of fasting.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fasting-turtles.yaml)
+    -   [fasting-turtles-eblups.sav](https://raw.githubusercontent.com/pmean/datasets/master/fasting-turtles-eblups.sav)
+    -   [fasting-turtles-restructured.sav](https://raw.githubusercontent.com/pmean/datasets/master/fasting-turtles-restructured.sav)
+    -   [fasting-turtles.sav](https://raw.githubusercontent.com/pmean/datasets/master/fasting-turtles.sav)
+    -   [fasting-turtles.txt](https://raw.githubusercontent.com/pmean/datasets/master/fasting-turtles.txt)
+-   **fat**: This dataset includes two measures of body fat (a  quantity  that is normally quite difficult to  measure) along with some simpler measures of body size that could be used to predict body fat.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fat.yaml)
+    -   [fat-download-from-web.Rmd](https://raw.githubusercontent.com/pmean/datasets/master/fat-download-from-web.Rmd)
+    -   [fat-upload-to-sqlite.Rmd](https://raw.githubusercontent.com/pmean/datasets/master/fat-upload-to-sqlite.Rmd)
+    -   [fat.csv](https://raw.githubusercontent.com/pmean/datasets/master/fat.csv)
+    -   [fat.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fat.sas7bdat)
+    -   [fat.sav](https://raw.githubusercontent.com/pmean/datasets/master/fat.sav)
+    -   [fat.txt](https://raw.githubusercontent.com/pmean/datasets/master/fat.txt)
+    -   [fat_correlations.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fat_correlations.sas7bdat)
+    -   [fat1.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fat1.sas7bdat)
+    -   [fat2.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fat2.sas7bdat)
+-   **fev**: Forced Expiratory Volume (FEV) in children
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fev.yaml)
+    -   [fev-duplicated.sav](https://raw.githubusercontent.com/pmean/datasets/master/fev-duplicated.sav)
+    -   [fev.csv](https://raw.githubusercontent.com/pmean/datasets/master/fev.csv)
+    -   [fev.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fev.sas7bdat)
+    -   [fev.sav](https://raw.githubusercontent.com/pmean/datasets/master/fev.sav)
+    -   [fev.txt](https://raw.githubusercontent.com/pmean/datasets/master/fev.txt)
+-   **fishing**: The data was collected by Peter Drew and Matt Seidemann, statistics students at the Queensland University of Technology, in a subject taught by Dr Margaret Mackisack.  They ran a simple experiment looking at  factors affecting the distance that a  fishing line was cast based on the rod, line, and sinker.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fishing.yaml)
+    -   [fishing.txt](https://raw.githubusercontent.com/pmean/datasets/master/fishing.txt)
+-   **fly1**: This dataset provides a simple example of what survival and censoring. It provides an inuitive explanation of estimation of survival probabilities.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fly1.yaml)
+    -   [fly1.dta](https://raw.githubusercontent.com/pmean/datasets/master/fly1.dta)
+    -   [fly1.RData](https://raw.githubusercontent.com/pmean/datasets/master/fly1.RData)
+    -   [fly1.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fly1.sas7bdat)
+    -   [fly1.sav](https://raw.githubusercontent.com/pmean/datasets/master/fly1.sav)
+    -   [fly1.txt](https://raw.githubusercontent.com/pmean/datasets/master/fly1.txt)
+-   **fly2**: This dataset provides a simple example of survival and censoring. For more details, refer to the fly1 data dictionary.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fly2.yaml)
+    -   [fly2.dta](https://raw.githubusercontent.com/pmean/datasets/master/fly2.dta)
+    -   [fly2.RData](https://raw.githubusercontent.com/pmean/datasets/master/fly2.RData)
+    -   [fly2.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fly2.sas7bdat)
+    -   [fly2.sav](https://raw.githubusercontent.com/pmean/datasets/master/fly2.sav)
+    -   [fly2.txt](https://raw.githubusercontent.com/pmean/datasets/master/fly2.txt)
+-   **fly3**: This dataset provides a simple example of survival and censoring. For more details, refer to the fly1 data dictionary.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/fly3.yaml)
+    -   [fly3.dta](https://raw.githubusercontent.com/pmean/datasets/master/fly3.dta)
+    -   [fly3.RData](https://raw.githubusercontent.com/pmean/datasets/master/fly3.RData)
+    -   [fly3.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/fly3.sas7bdat)
+    -   [fly3.sav](https://raw.githubusercontent.com/pmean/datasets/master/fly3.sav)
+    -   [fly3.txt](https://raw.githubusercontent.com/pmean/datasets/master/fly3.txt)
+-   **full-moon-er-admissions**: The data give the admission rates to the emergency room of a Virginia mental health clinic before, during and after the 12  full moons from August 1971 to July 1972.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-er-admissions.yaml)
+    -   [full-moon-er-admissions.sav](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-er-admissions.sav)
+    -   [full-moon-er-admissions.txt](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-er-admissions.txt)
+-   **gardasil**: This data set shows information about young women who received the Gardasil shot. Of particular interest is the proportion of women who received all three shots.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.yaml)
+    -   [gardasil.csv](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.csv)
+    -   [gardasil.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.sas7bdat)
+    -   [gardasil.sav](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.sav)
+    -   [gardasil.tsv](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.tsv)
+    -   [gardasil.xls](https://raw.githubusercontent.com/pmean/datasets/master/gardasil.xls)
+-   **glycyrrhizin**: This data is from a meta-analysis of the  effectiveness of glycyrrhizin, an herbal medicine that is thought to have some anti-allergenic and immune boosting effects. This study examined its use in treating chronic urticaria, a condition characterized by rashes and/or angiodema. The researchers found 24 randomized trials addressing this topic. The outcome was the total efficiency rate, defined as a binary outcome based on the Urticaria Symptom Score Reduction Index.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/glycyrrhizin.yaml)
+    -   [glycyrrhizin.csv](https://raw.githubusercontent.com/pmean/datasets/master/glycyrrhizin.csv)
+-   **grace1000**: This dataset illustrates the use of time-varying covariates.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.yaml)
+    -   [grace1000.dat](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.dat)
+    -   [grace1000.dta](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.dta)
+    -   [grace1000.RData](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.RData)
+    -   [grace1000.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.sas7bdat)
+    -   [grace1000.sav](https://raw.githubusercontent.com/pmean/datasets/master/grace1000.sav)
+-   **heroin**: This dataset shows information about heroin addicts who are treated at two rehabilitation clinics. It is useful for showing (among other things) how to identify and control for the clinic factor which does not meet the assumptions of proportional hazards needed by the standard Cox regression model.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/heroin.yaml)
+    -   [heroin.dta](https://raw.githubusercontent.com/pmean/datasets/master/heroin.dta)
+    -   [heroin.RData](https://raw.githubusercontent.com/pmean/datasets/master/heroin.RData)
+    -   [heroin.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/heroin.sas7bdat)
+    -   [heroin.sav](https://raw.githubusercontent.com/pmean/datasets/master/heroin.sav)
+    -   [heroin.txt](https://raw.githubusercontent.com/pmean/datasets/master/heroin.txt)
+-   **hiv-intervention**: This is a longitudinal study of an intervention in 14-18 adolescents  intended to increase the frequency of condom protected sex. Subjects  were allocated randomly to treatment or control groups. All were evaluated prior to the intervention, immediately  after the intervention, 6 months and  12 months after the intervention.The outcome variable is the logarithm-transformed frequency of condom-protected sex ( log(Y+1) )."
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/hiv-intervention.yaml)
+    -   [hiv-intervention-restructured.sav](https://raw.githubusercontent.com/pmean/datasets/master/hiv-intervention-restructured.sav)
+    -   [hiv-intervention.sav](https://raw.githubusercontent.com/pmean/datasets/master/hiv-intervention.sav)
+    -   [hiv-intervention.txt](https://raw.githubusercontent.com/pmean/datasets/master/hiv-intervention.txt)
+-   **leader**: This data set shows how long political leaders of various countries stayed in power and is useful for (among other  things) illustrating how to fit competing risk models based on the  manner in which each leader lost power.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/leader.yaml)
+    -   [leader.dta](https://raw.githubusercontent.com/pmean/datasets/master/leader.dta)
+    -   [leader.RData](https://raw.githubusercontent.com/pmean/datasets/master/leader.RData)
+    -   [leader.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/leader.sas7bdat)
+    -   [leader.sav](https://raw.githubusercontent.com/pmean/datasets/master/leader.sav)
+    -   [leader.txt](https://raw.githubusercontent.com/pmean/datasets/master/leader.txt)
+    -   [leader_tally.csv](https://raw.githubusercontent.com/pmean/datasets/master/leader_tally.csv)
+-   **litter-weights**: Hypothetical data simulated to  illustrate analysis issues  associated with random litter effects.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights.yaml)
+    -   [litter-weights-subset1.sav](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights-subset1.sav)
+    -   [litter-weights-subset2.sav](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights-subset2.sav)
+    -   [litter-weights-subset3.sav](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights-subset3.sav)
+    -   [litter-weights-subset4.sav](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights-subset4.sav)
+    -   [litter-weights.sav](https://raw.githubusercontent.com/pmean/datasets/master/litter-weights.sav)
+-   **module02-datasets**: This is an R binary file that contains three dataframes (bump, fd, and sleep). See more information in the individual data dictionaries.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/module02-datasets.yaml)
+    -   [module02-datasets.RData](https://raw.githubusercontent.com/pmean/datasets/master/module02-datasets.RData)
+-   **moon**: This data set shows a perceptual experiment where subjects were asked to estimate a size ratio with their head level to the ground and then with their head elevated (in other words, looking upward). Although the objects being compared were the same size, almost all subjects  overestimated the relative sizes. The hypothesis to be tested is  whether the overestimation is greater with eyes level than with eyes elevated.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/moon.yaml)
+    -   [full-moon-er-admissions.sav](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-er-admissions.sav)
+    -   [full-moon-er-admissions.txt](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-er-admissions.txt)
+    -   [full-moon-with-indicators.sav](https://raw.githubusercontent.com/pmean/datasets/master/full-moon-with-indicators.sav)
+    -   [moon.sav](https://raw.githubusercontent.com/pmean/datasets/master/moon.sav)
+    -   [moon.txt](https://raw.githubusercontent.com/pmean/datasets/master/moon.txt)
+-   **psychiatric-discharges**: This dataset shows an example of left truncated data for a survival model.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.yaml)
+    -   [psychiatric-discharges.csv](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.csv)
+    -   [psychiatric-discharges.dta](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.dta)
+    -   [psychiatric-discharges.RData](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.RData)
+    -   [psychiatric-discharges.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.sas7bdat)
+    -   [psychiatric-discharges.sav](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.sav)
+    -   [psychiatric-discharges.txt](https://raw.githubusercontent.com/pmean/datasets/master/psychiatric-discharges.txt)
+-   **quake**: Depression scores measured before and at multiple time points after a major earthquake.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/quake.yaml)
+    -   [quake-depression.txt](https://raw.githubusercontent.com/pmean/datasets/master/quake-depression.txt)
+-   **rat-litter**: This dataset shows survival times for rats  provided an unspecified medical treatment  or a placebo. The experiment randomized three pups within an individual litter, one to the treatment group and two to the control group. This data is useful for (among other things) showing how to account for a litter effect in a Cox proportional hazards model.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.yaml)
+    -   [rat-litter.csv](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.csv)
+    -   [rat-litter.dta](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.dta)
+    -   [rat-litter.RData](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.RData)
+    -   [rat-litter.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.sas7bdat)
+    -   [rat-litter.sav](https://raw.githubusercontent.com/pmean/datasets/master/rat-litter.sav)
+-   **samara-velocity**: From the Ryan et al article: "In autumn, small winged fruit called samara fall off maple trees, spinning as they go. A forest scientist studied the relationship between how fast they fell and their "disk loading" (a quantity based on their size and weight). The samara disk loading is  related to the aerodynamics of helicopters."
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/samara-velocity.yaml)
+    -   [samara-velocity.sav](https://raw.githubusercontent.com/pmean/datasets/master/samara-velocity.sav)
+    -   [samara-velocity.txt](https://raw.githubusercontent.com/pmean/datasets/master/samara-velocity.txt)
+-   **sharing**: From the original source: "The data set presents data collected by online survey with a questionnaire using Likert scale. The survey sample included 184 adults (18+),active and potential users of different sharing services platforms."
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/sharing.yaml)
+    -   [sharing.xlsx](https://raw.githubusercontent.com/pmean/datasets/master/sharing.xlsx)
+-   **signapore-diamond-prices**: The data is intended to teach some lessons about regression models. The size of a diamond, as well as some categorical descriptors (color and clarity) are listed for 308 diamonds, along with their sales price.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/signapore-diamond-prices.yaml)
+    -   [signapore-diamond-prices-data-dictionary.txt](https://raw.githubusercontent.com/pmean/datasets/master/signapore-diamond-prices-data-dictionary.txt)
+    -   [signapore-diamond-prices.txt](https://raw.githubusercontent.com/pmean/datasets/master/signapore-diamond-prices.txt)
+-   **sleep**: This dataset has information about sleep patterns in 62 common mammals, along with other information that might help you understand what influences variations in sleep.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/sleep.yaml)
+    -   [sleep.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/sleep.sas7bdat)
+    -   [sleep.sav](https://raw.githubusercontent.com/pmean/datasets/master/sleep.sav)
+    -   [sleep.txt](https://raw.githubusercontent.com/pmean/datasets/master/sleep.txt)
+    -   [sleep_modified.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/sleep_modified.sas7bdat)
+    -   [sleep_modified.txt](https://raw.githubusercontent.com/pmean/datasets/master/sleep_modified.txt)
+-   **swim-speeds**: This experiment was conducted by Kim  Horsfall, Sue Hall and Simone Golik,  statistics students at the Queensland  University of Technology in a subject taught by Dr Margaret Mackisack. The students designed and conducted an  experiment to determine the factors affecting the time to swim one lap of a 25m pool.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/swim-speeds.yaml)
+    -   [swim-speeds.txt](https://raw.githubusercontent.com/pmean/datasets/master/swim-speeds.txt)
+-   **termites**: Resins Rid Termites from Trees
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/termites.yaml)
+    -   [termites.txt](https://raw.githubusercontent.com/pmean/datasets/master/termites.txt)
+-   **titanic**: The Titanic was a large cruise ship,  the biggest of its kind in 1912. It  was thought to be unsinkable, but  when it set sail from England to  America in its maiden voyage, it  struck an iceberg and sank, killing  many of the passengers and crew. You can get fairly good data on the  characteristics of passengers who  died and compare them to those that  survived. The data indicate a strong  effect due to age and gender,  representing a philosophy of  "women and children first" that held during the boarding of life boats.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/titanic.yaml)
+    -   [titanic-upload-to-sqlite.Rmd](https://raw.githubusercontent.com/pmean/datasets/master/titanic-upload-to-sqlite.Rmd)
+    -   [titanic.csv](https://raw.githubusercontent.com/pmean/datasets/master/titanic.csv)
+    -   [titanic.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/titanic.sas7bdat)
+    -   [titanic.sav](https://raw.githubusercontent.com/pmean/datasets/master/titanic.sav)
+    -   [titanic.txt](https://raw.githubusercontent.com/pmean/datasets/master/titanic.txt)
+    -   [titanic_db.sqlite](https://raw.githubusercontent.com/pmean/datasets/master/titanic_db.sqlite)
+-   **transplant**: This data dictionary provides information about a dataset that for a variety of reasons, comes in four different files. Two files of the files (transplant.txt and transplant1.csv) are identical except for formatting and are represented with one row per patient. Another two files (heart.csv and transplant2.csv) are also identical except for formatting and are represented using start-stop coding. For these two data sets, an extra row is needed for patients who switch the covariate pattern in the middle of the study.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/transplant.yaml)
+    -   [transplant.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant.dta)
+    -   [transplant.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant.RData)
+    -   [transplant.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant.sas7bdat)
+    -   [transplant.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant.sav)
+    -   [transplant.txt](https://raw.githubusercontent.com/pmean/datasets/master/transplant.txt)
+    -   [transplant1.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.csv)
+    -   [transplant1.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.dta)
+    -   [transplant1.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.RData)
+    -   [transplant1.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.sas7bdat)
+    -   [transplant1.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.sav)
+    -   [transplant2.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.csv)
+    -   [transplant2.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.dta)
+    -   [transplant2.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.RData)
+    -   [transplant2.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.sas7bdat)
+    -   [transplant2.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.sav)
+    -   [transplant3.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.csv)
+    -   [transplant3.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.dta)
+    -   [transplant3.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.RData)
+    -   [transplant3.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.sas7bdat)
+    -   [transplant3.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.sav)
+-   **transplant1**: Please refer to transplant-data_dictionary.yaml
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.yaml)
+    -   [transplant1.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.csv)
+    -   [transplant1.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.dta)
+    -   [transplant1.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.RData)
+    -   [transplant1.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.sas7bdat)
+    -   [transplant1.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant1.sav)
+-   **transplant2**: Please refer to transplant-data_dictionary.yaml
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.yaml)
+    -   [transplant2.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.csv)
+    -   [transplant2.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.dta)
+    -   [transplant2.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.RData)
+    -   [transplant2.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.sas7bdat)
+    -   [transplant2.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant2.sav)
+-   **transplant3**: Please refer to transplant-data_dictionary.yaml
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.yaml)
+    -   [transplant3.csv](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.csv)
+    -   [transplant3.dta](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.dta)
+    -   [transplant3.RData](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.RData)
+    -   [transplant3.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.sas7bdat)
+    -   [transplant3.sav](https://raw.githubusercontent.com/pmean/datasets/master/transplant3.sav)
+-   **two-small-dataframes**: This is an R binary file that contains two dataframes (bump, fd). See the individual data dictionaries for more details.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/two-small-dataframes.yaml)
+    -   [two-small-dataframes.RData](https://raw.githubusercontent.com/pmean/datasets/master/two-small-dataframes.RData)
+-   **vaccine-willingness**: This paper identified seven studies that examined vaccine literacy (VL).  Patients in these studies also stated their  vaccine prefernce and were categorized  as willing or unwilling.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/vaccine-willingness.yaml)
+    -   [vaccine-willingness.csv](https://raw.githubusercontent.com/pmean/datasets/master/vaccine-willingness.csv)
+-   **whas100**: The data represents survival times for a 100 patient subset of data from the Worcester Heart Attack Study. You can find more information about this data set in Chapter 1 of Hosmer, Lemeshow, and May.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/whas100.yaml)
+    -   [whas100.dat](https://raw.githubusercontent.com/pmean/datasets/master/whas100.dat)
+    -   [whas100.dta](https://raw.githubusercontent.com/pmean/datasets/master/whas100.dta)
+    -   [whas100.RData](https://raw.githubusercontent.com/pmean/datasets/master/whas100.RData)
+    -   [whas100.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/whas100.sas7bdat)
+    -   [whas100.sav](https://raw.githubusercontent.com/pmean/datasets/master/whas100.sav)
+-   **whas500**: The data represents survival times for a 500 patient subset of data from the Worcester Heart Attack Study. You can find more information about this data set in Chapter 1 of Hosmer, Lemeshow, and May.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/whas500.yaml)
+    -   [whas500.dat](https://raw.githubusercontent.com/pmean/datasets/master/whas500.dat)
+    -   [whas500.dta](https://raw.githubusercontent.com/pmean/datasets/master/whas500.dta)
+    -   [whas500.RData](https://raw.githubusercontent.com/pmean/datasets/master/whas500.RData)
+    -   [whas500.sas7bdat](https://raw.githubusercontent.com/pmean/datasets/master/whas500.sas7bdat)
+    -   [whas500.sav](https://raw.githubusercontent.com/pmean/datasets/master/whas500.sav)
+-   **woodard**: Information from a Wake County, NC database, taken in 2008. This a random sample from the entire county.
+    -   [Data dictionary](https://raw.githubusercontent.com/pmean/datasets/master/woodard.yaml)
+    -   [woodard.sav](https://raw.githubusercontent.com/pmean/datasets/master/woodard.sav)
+    -   [woodard.xls](https://raw.githubusercontent.com/pmean/datasets/master/woodard.xls)

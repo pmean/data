@@ -1,0 +1,56 @@
+---
+data_dictionary: fev.txt
+
+copyright: >
+  The author of the jse article holds the copyright, but does not list
+  conditions under which it can be used. Individual use for educational
+  purposes is probably permitted under the Fair Use provisions of
+  U.S. Copyright laws.
+
+description: >
+  Forced Expiratory Volume (FEV) in children
+
+additional_description:
+  http://jse.amstat.org/datasets/fev.txt
+
+download_url:
+  http://www.amstat.org/publications/jse/datasets/fev.dat.txt
+
+format:
+  space-delimited
+  
+varnames: 
+  not included
+  
+missing_value_code:
+  not needed
+  
+size:   
+  rows: 654
+  columns: 5
+
+vars:
+  age:
+    scale: non-negative integer
+    unit: years
+    
+  fev:
+    label: Forced Expiratory Volume
+    scale: non-negative real
+    unit: liters
+    
+  ht:
+    label: Height
+    scale: non-negative integer
+    unit: inches
+
+  sex:
+    value:
+      Female: 0
+      Male: 1
+
+  smoke:
+    value:
+      Nonsmoker: 0
+      Smoker: 1
+---

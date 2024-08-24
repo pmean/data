@@ -1,0 +1,49 @@
+---
+data_dictionary: 
+  diet.txt
+
+source:
+  This data file is part of the Data and 
+  Story library, an archive of various
+  data sets useful for teaching.
+  The entire archive is at
+  https://dasl.datadescription.com/
+  
+
+description:
+  This data set shows side effects of specially
+  prepared diet crackers.
+
+additional_description:
+  https://dasl.datadescription.com/datafile/diet/
+  
+download_url:
+  https://dasl.datadescription.com/download/data/3163
+  
+copyright:  
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+format: 
+  tab-delimited
+  
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+
+size:
+  rows: 51
+  columns: 2
+
+vars:
+  Bloat:
+    label: Did the patient experience bloating?
+    format: string
+
+  Cracker:
+    label: Type of cracker
+    format: string
+---

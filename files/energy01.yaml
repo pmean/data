@@ -1,0 +1,31 @@
+---
+data_dictionary: energy01.csv
+
+description:
+  Energy requirements while running, 
+  walking, and cycling. This dataset
+  and enerfy02, energy03, and energy04
+  are modifications of the original
+  data to illustrate various options
+  for data input.
+  
+additional_description:  
+  http://www.statsci.org/data/general/energy.html
+
+download_url:
+  http://www.statsci.org/data/general/energy.txt
+  
+source: 
+  JS Milton. Statistical Methods in the Biological
+  and Health Sciences, Second edition. 1992. McGraw-Hill.
+
+copyright:  
+  unknown
+
+format: 
+  comma-delimited
+  
+varnames:
+  not included
+---
+
