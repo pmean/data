@@ -1,0 +1,74 @@
+---
+title: "Update readme file"
+author: "Steve Simon"
+date: "Created 2024-08-24"
+execute:
+  echo: false
+format:
+  html:
+    embed-resources: true
+editor: source
+---
+
+```{r setup}
+library(glue)
+library(readr)
+library(stringr)
+library(yaml)
+```
+
+## Get file list
+
+```{r get-list}
+yamls <- list.files("../files", pattern="yaml$")
+```
+
+There are `r length(yamls)` yaml files: `r paste0(yamls, collapse=", ")`.
+
+## Backup original readme
+
+```{r backup}
+backup_text <- read_lines("../README.md")
+dividing_text <- 
+  "Here are the datasets in this repository so far"
+dividing_line <- str_which(backup_text, dividing_text)
+write_lines(backup_text, "readme-backup.md", append=FALSE)
+```
+
+## Copy top half of readme
+
+```{r top-half}
+write_lines(backup_text[1:dividing_line], "..README.md")
+# Add a blank line
+write_lines(" ", "..README.md", append=TRUE)
+```
+
+## Create nice index
+
+```{r index}
+f0 <- "https://raw.githubusercontent.com"
+f1 <- "pmean/data/main/files"
+line1 <- "-   **{r}** : {description}" 
+line2 <- "    -   [data dictionary]({f0}/{f1}/{y})"
+line3 <- "    -   [{d}]({f0}/{f1}/{d})\n"
+for (y in yamls) {
+  r <- str_remove(y, "\\.yaml")
+  check <- read_yaml(glue("../files/{y}"))
+  description <- ifelse(
+    any(names(check) == "description"),
+    check$description, 
+    "No description available.")
+  list.files("../files", pattern=r) |>
+    str_subset("yaml", negate=TRUE) -> d
+
+  write_lines(glue(line1), "README.md", append=TRUE)
+  write_lines(glue(line2), "README.md", append=TRUE)
+  write_lines(glue(line3), "README.md", append=TRUE)
+  
+  cat(glue(line1))
+  cat("\n")
+  cat(glue(line2))
+  cat("\n")
+  cat(glue(line3))
+}
+```
