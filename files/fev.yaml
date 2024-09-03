@@ -1,5 +1,5 @@
 ---
-data_dictionary: fev.txt
+data_dictionary: fev (.csv, sas7bdat, .sav, .txt)
 
 copyright: >
   The author of the jse article holds the copyright, but does not list
@@ -8,16 +8,20 @@ copyright: >
   U.S. Copyright laws.
 
 description: >
-  Forced Expiratory Volume (FEV) in children
+  Forced Expiratory Volume (FEV) in children. The data was collected 
+  in Boston in the 1970s.
 
 additional_description:
-  http://jse.amstat.org/datasets/fev.txt
+  https://jse.amstat.org/v13n2/datasets.kahn.html
 
 download_url:
-  http://www.amstat.org/publications/jse/datasets/fev.dat.txt
+  https://www.amstat.org/publications/jse/datasets/fev.dat.txt
 
 format:
-  space-delimited
+  csv: comma delimited
+  sas7bdat: proprietary (SAS)
+  sav: proprietary (SPSS)
+  txt: fixed width
   
 varnames: 
   not included
@@ -31,26 +35,28 @@ size:
 
 vars:
   age:
-    scale: non-negative integer
+    scale: ratio
+    range: positive integer
     unit: years
     
   fev:
     label: Forced Expiratory Volume
-    scale: non-negative real
+    scale: ratio
+    range: positive real
     unit: liters
     
   ht:
     label: Height
-    scale: non-negative integer
+    scale: positive real
     unit: inches
 
   sex:
     value:
-      Female: 0
-      Male: 1
+      0: Female
+      1: Male
 
   smoke:
     value:
-      Nonsmoker: 0
-      Smoker: 1
+      0: Nonsmoker
+      1: Smoker
 ---
