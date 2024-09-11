@@ -2,27 +2,18 @@
 data_dictionary: breast-feeding-preterm.csv
 
 description: >
-  This data comes from a research study
-  done at Children's Mercy Hospital and
-  St. Luke's Medical Center. This was a
-  study of breast feeding in pre-term
-  infants. Infants were randomized into
-  either a treatment group (NG tube) or
-  a control group (Bottle). Infants in
-  the NG tube group were fed in the 
-  hospital via their nasogastral tube 
-  when the mother was not available 
-  for breast feeding. Infants in the 
-  bottle group received bottles when 
-  the mothers were not available. Both
-  groups were monitored for six months
-  after discharge from the hospital.
+  This data comes from a research study done at Children's Mercy Hospital
+  and St. Luke's Medical Center. This was a study of breast feeding in 
+  pre-term infants. Infants were randomized into either a treatment group
+  (NG tube) or a control group (Bottle). Infants in the NG tube group 
+  were fed in the hospital via their nasogastral tube when the mother
+  was not available for breast feeding. Infants in the bottle group
+  received bottles when the mothers were not available. Both groups
+  were monitored for six months after discharge from the hospital.
 
 copyright:
-  This data is in the public domain and 
-  is freely avaiable for anyone to use. 
-  Acknowledgement of the source is 
-  appreicated but not required.
+  This data is in the public domain and is freely avaiable for anyone
+  to use. Acknowledgement of the source is appreicated but not required.
 
 format:
   comma-delimited
