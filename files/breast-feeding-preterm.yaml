@@ -1,5 +1,5 @@
 ---
-data_dictionary: bf.csv
+data_dictionary: breast-feeding-preterm.csv
 
 description: >
   This data comes from a research study done at Children's Mercy Hospital
@@ -21,66 +21,77 @@ format:
 varnames: 
   first row of data
   
-missing_value_code:
-  A space between two commas
+missing_value_code: -1
 
 size:
-  rows: 844
-  columns: 31
+  rows: 84
+  columns: 28
 
 vars:
   feed_typ:
-    value:
-      Control
-      Treatment
+    scale: categorical
+    values:
+      - Control
+      - Treatment
 
   age_stop:
     label: Age at which infant stopped breast feeding
-    scale: non-negative real
+    scale: ratio
+    range: non-negative real
     unit: weeks
 
   sepsis:
     label: Diagnosis of sepsis
-    value:
-      No
-      Yes
+    scale: categorical
+    values:
+      - No
+      - Yes
 
   total_ab:
     label: Total number of apnea and bradycardia incidents
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
 
   del_type:
     label: Type of delivery 
+    scale: nominal
     values:
-      Vaginal: 1
-      C-section: 2
+      1: Vaginal
+      2: C-section
  
   mom_age:
     label: Mother's age
+    scale: ratio
+    range: positive integer
     unit: years
 
   gravida:
     label: Gravidity or number of pregnancies
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
 
   para:
     label: Parity or number of live births
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
    
   mar_st:
     label: Marital status of mother
+    scale: nominal
     values:
-      Single: 1
-      Married: 2   
+      1: Single
+      2: Married
      
   race:
     label: Mother's race
+    scale: nominal
     values:
-      White: W
-      Black: B
+      W: White
+      B: Black
       
   smoker:
     label: Smoking by mother during pregnancy
+    scale: nominal
     values:
       Yes: 1
       No: 2
@@ -88,62 +99,75 @@ vars:
   mi_hosp:
     label: Distance from the mother's home to the hospital
     unit: miles
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
    
   ng_tube:
     label: Time on the NG tube
     unit: days
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
    
   tot_bott:
     label: Bottles of formula given while in the hospital
-    scale: non-negative integer
+    scale: ratio
+    range: non-negative integer
 
   bw:
     label: Birthweight
     unit: kg
-    scale: non-negative real
+    scale: ratio
+    range: non-negative real
    
   gest_age:
     label: Estimated gestational age
     unit: weeks
-    scale: positive integer
+    scale: ratio
+    range: positive integer
 
   apgar1:
     label: Apgar score at one minute
-    scale: 0 through 10
+    scale: ordinal
+    range: 0 through 10
 
   apgar5:
     label: Apgar score at five minutes
-    scale: 0 through 10
+    scale: ratio
+    range: 0 through 10
    
   bf1_wt:
     label: Weight at first breast feeding
     unit: kg
-    scale: non-negative real
+    scale: ratio
+    range: positive real
    
   bf1_age:
     label: Age at first breast feeding
     unit: hours
-    scale: positive integer   
+    scale: ratio
+    range: positive integer   
    
   dc_wt:
     label: Weight at discharge
     unit: kg
-    scale: positive real
+    scale: ratio
+    range: positive real
    
   dc_age:
     label: Age at discharge
     unit: days
-    scale: positive integer
+    scale: ratio
+    range: positive integer
    
   dc3_wt:
     label: Weight three days after discharge
     unit: days
-    scale: positive real
+    scale: ratio
+    range: positive real
    
   bf0:
     label: Breastfeeding status at hospital discharge
+    scale: ordinal
     values:
       Exclusive: 1
       Partial: 2
@@ -151,6 +175,7 @@ vars:
    
   bf1:
     label: Breastfeeding status three days after discharge
+    scale: ordinal
     values:
       Exclusive: 1
       Partial: 2
@@ -158,6 +183,7 @@ vars:
    
   bf2:
     label: Breastfeeding status six weeks after discharge
+    scale: ordinal
     values:
       Exclusive: 1
       Partial: 2
@@ -165,6 +191,7 @@ vars:
    
   bf3:
     label: Breastfeeding status three months after discharge
+    scale: ordinal
     values:
       Exclusive: 1
       Partial: 2
@@ -172,6 +199,7 @@ vars:
    
   bf4:
     label: Breastfeeding status six months after discharge
+    scale: ordinal
     values:
       Exclusive: 1
       Partial: 2
