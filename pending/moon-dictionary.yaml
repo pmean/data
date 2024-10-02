@@ -1,0 +1,50 @@
+---
+data_dictionary: 
+  moon.txt
+
+source:
+  This data file is part of OzDASL, an archive of various data sets 
+  useful for teaching. The maintainers of the data archive are from
+  Australia, but this particular data set is not specific to that part
+  of the world. The entire archive is at
+  https://dasl.datadescription.com/
+  
+
+description:
+  This data set shows a perceptual experiment where subjects were asked
+  to estimate a size ratio with their head level to the ground and then
+  with their head elevated (in other words, looking upward). Although
+  the objects being compared were the same size, almost all subjects 
+  overestimated the relative sizes. The hypothesis to be tested is 
+  whether the overestimation is greater with eyes level than with eyes
+  elevated. A more detailed description is available at
+  https://gksmyth.github.io/ozdasl/general/moon.html
+  
+download:
+  https://gksmyth.github.io/ozdasl/general/moon.txt
+  
+copyright:  
+  Unknown. You should be able to use this data for individual 
+  educational purposes under the Fair Use guidelines of U.S. 
+  copyright law.
+
+format: 
+  delimiter: tab
+  varnames: first row of data
+  missing-value-code: not needed
+  rows: 10
+  columns: 3
+
+vars:
+  Subject:
+    label: Subject number
+    format: numeric
+
+  Elevated:
+    label: Perceived ratio with eyes elevated
+    format: numeric
+    
+  Level:
+    label: Perceived ratio with eyes level
+    format: numeric
+---

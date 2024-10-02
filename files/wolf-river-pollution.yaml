@@ -1,0 +1,54 @@
+---
+data_dictionary: wolf-river-pollution
+
+format: 
+  txt: tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Ten water samples were taken at three different depths in Wolf River.
+  Two pollutants, Aldrin and HCB, were measured in each sample.
+
+additional_description:
+  https://gksmyth.github.io/ozdasl/general/wolfrive.html
+
+download_url:
+  https://gksmyth.github.io/ozdasl/general/wolfrive.txt
+
+source: >
+  OzDASL (Australian Data and Story Library), a repository for various
+  data sets useful for teaching.
+
+copyright: >
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+size:  
+  rows: 30
+  columns: 3
+
+vars:
+  Depth:
+    label: Location of water sample
+    values:
+      - Surface
+      - Middepth
+      - Bottom
+    scale: ordinal
+    
+  Aldrin:
+    label: Concentration of Aldrain
+    units: Not specified
+    scale: ratio
+
+  HCB:
+    label: Concentration of HCB
+    units: Not specified
+    scale: ratio
+---

@@ -1,0 +1,89 @@
+---
+data_dictionary: bacterial-cultures
+
+format: 
+  txt: fixed-width with space delimiters
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Five strains of Staphylococcus aureus were cultured under a variety
+  of laboratory conditions. The goal is to see what conditions are 
+  optimal for growth.
+
+additional_description:
+  https://jse.amstat.org/datasets/Tryptone.txt
+
+download_url:
+  https://jse.amstat.org/datasets/Tryptone.dat.txt
+
+source: >
+  Journal of Statistics Education Data Archive
+  
+reference: >
+  Neil Binnie (2004) Using EDA, ANOVA and Regression to Optimise some
+  Microbiology Data, Journal of Statistics Education, 12:2, DOI:
+  10.1080/10691898.2004.11910738
+  
+copyright: >
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+size:  
+  rows: 30
+  columns: 9
+
+vars:
+  Row:
+    label: Row number
+    
+  Count1:
+    label: Bacterial count for first strain
+    units: Million CFU/mL
+    
+  Count2:
+    label: Bacterial count for second strain
+    units: Million CFU/mL
+  
+  Count3:
+    label: Bacterial count for third strain
+    units: Million CFU/mL
+  
+  Count4:
+    label: Bacterial count for fourth strain
+    units: Million CFU/mL
+  
+  Count5:
+    label: Bacterial count for fifth strain
+    units: Million CFU/mL
+  
+  Time:
+    label: Incubation time
+    units: Hours
+    values:
+      - 24
+      - 48
+  
+  Temp:
+    label: Incubation temperature
+    units: Degrees Celsius
+    values:
+      - 27
+      - 35
+      - 43
+    
+  Conc:
+    label: Tryptone concentration
+    units: Percent by weight
+    values:
+      - 0.6
+      - 0.8
+      - 1.0
+      - 1.2
+      - 1.4
+---
