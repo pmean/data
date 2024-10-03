@@ -1,0 +1,51 @@
+---
+data_dictionary: postural-sway.txt
+
+copyright: >
+  The author of the jse article holds the copyright, but does not list
+  conditions under which it can be used. Individual use for educational
+  purposes is probably permitted under the Fair Use provisions of
+  U.S. Copyright laws.
+
+description: >
+  Postural sway is a measure of how well patients can balance. The postural sway
+  was measured using a force plate in two groups of subjects, elderly or young.
+  Sway was measured in the forward/back direction and in the side-to-side
+  direction.
+
+additional_description:
+  https://gksmyth.github.io/ozdasl/general/balaconc.html
+
+download_url:
+  https://gksmyth.github.io/ozdasl/general/balaconc.txt
+
+format:
+  tab delimited
+
+varnames: 
+  Included in the first line
+  
+missing_value_code:
+  not needed
+  
+size:   
+  rows: 17
+  columns: 3
+
+vars:
+  Age:
+    scale: nominal
+    values:
+      - Elderly
+      - Young
+      
+  FBSway:
+    label: Sway in the forward-backward direction
+    scale: ratio
+    range: positive real
+
+  SideSway:
+    label: Sway in the side-to-side direction
+    scale: ratio
+    range: positive real
+---
