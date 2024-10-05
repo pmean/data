@@ -1,0 +1,51 @@
+---
+data_dictionary: gingko-memory.txt
+
+copyright: >
+  Gordon Smythe holds the copyright to the data, but does not list
+  conditions under which it can be used. Individual use for educational
+  purposes is probably permitted under the Fair Use provisions of
+  U.S. Copyright laws. This data dictionary was written by Steve Simon on 
+  2024-10-05 and is placed in the public domain.
+
+description: >
+  Patients were given an over-the-counter medication, gingko, or a placebo to
+  if this medication could improve memory in elderly adults. The measure of
+  memory is not clearly defined.
+
+additional_description:
+  https://dasl.datadescription.com/datafile/memory
+
+download_url:
+  https://dasl.datadescription.com/download/data/3335
+
+source_publication: >
+  Solomon,P.R., Adams,F., Silver, A., Zimmer, J. and De Veaux, R.D. Journal of
+  the American Medical Assocation Vol. 288 pp.835-840 (2002), “Ginkgo for Memory
+  Enhancement A Randomized Controlled Trial”
+
+format:
+  tab delimited
+
+varnames: 
+  Included in the first line
+  
+missing_value_code:
+  not needed
+  
+size:   
+  rows: 104
+  columns: 2
+  note: second column only has 99 rows
+
+vars:
+  Gingko:
+    label: Memory evaluation for Gingko patients
+    scale: ratio
+    range: positive or negative
+
+  Placebo:
+    label: Memory evaluation for Gingko patients
+    scale: ratio
+    range: positive or negative
+---
