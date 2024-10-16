@@ -2,10 +2,12 @@
 data_dictionary: postural-sway.txt
 
 copyright: >
-  The author of the jse article holds the copyright, but does not list
-  conditions under which it can be used. Individual use for educational
-  purposes is probably permitted under the Fair Use provisions of
-  U.S. Copyright laws.
+  Permission is granted to freely use material on the OzDASL site, although
+  acknowledgement of the OzDASL site as the data source would be appreciated. 
+  Please be aware though that some of the OzData data sets were originally 
+  published elsewhere; original sources are cited on the description page. If 
+  you intend to re-publish one of these data sets it may be necessary to obtain 
+  permission from the original copyright holder.
 
 description: >
   Postural sway is a measure of how well patients can balance. The postural sway
