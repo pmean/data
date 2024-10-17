@@ -50,7 +50,7 @@ f0 <- "https://raw.githubusercontent.com"
 f1 <- "pmean/data/main/files"
 line1 <- "-   **{r}** : {description}" 
 line2 <- "    -   [data dictionary]({f0}/{f1}/{y})"
-line3 <- "    -   [{d}]({f0}/{f1}/{d})\n"
+line3 <- "    -   [{d}]({f0}/{f1}/{d})"
 
 for (y in yamls) {
   r <- str_remove(y, "\\.yaml")
@@ -62,9 +62,9 @@ for (y in yamls) {
   list.files("../files", pattern=r) |>
     str_subset("yaml", negate=TRUE) -> d
 
-  write_lines(glue(line1), "../README.md", append=TRUE)
-  write_lines(glue(line2), "../README.md", append=TRUE)
-  g <- glue(line3)
+  write_lines(glue(line1, .trim=FALSE), "../README.md", append=TRUE)
+  write_lines(glue(line2, .trim=FALSE), "../README.md", append=TRUE)
+  g <- glue(line3, .trim=FALSE)
   for (i in 1:length(g)) {
     write_lines(g[i], "../README.md", append=TRUE)
   }
