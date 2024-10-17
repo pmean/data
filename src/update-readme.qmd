@@ -38,9 +38,9 @@ write_lines(backup_text, "readme-backup.md", append=FALSE)
 ## Copy top half of readme
 
 ```{r top-half}
-write_lines(backup_text[1:dividing_line], "..README.md")
+write_lines(backup_text[1:dividing_line], "../README.md")
 # Add a blank line
-write_lines(" ", "..README.md", append=TRUE)
+write_lines(" ", "../README.md", append=TRUE)
 ```
 
 ## Create nice index
@@ -48,9 +48,12 @@ write_lines(" ", "..README.md", append=TRUE)
 ```{r index}
 f0 <- "https://raw.githubusercontent.com"
 f1 <- "pmean/data/main/files"
-line1 <- "-   **{r}** : {description}" 
-line2 <- "    -   [data dictionary]({f0}/{f1}/{y})"
-line3 <- "    -   [{d}]({f0}/{f1}/{d})\n"
+line1 <- "**{r}** : {description}" 
+line2 <- "[data dictionary]({f0}/{f1}/{y})"
+line3 <- "[{d}]({f0}/{f1}/{d})"
+bullet1 <- "-   "
+bullet2 <- "    -   "
+
 for (y in yamls) {
   r <- str_remove(y, "\\.yaml")
   check <- read_yaml(glue("../files/{y}"))
@@ -61,9 +64,12 @@ for (y in yamls) {
   list.files("../files", pattern=r) |>
     str_subset("yaml", negate=TRUE) -> d
 
-  write_lines(glue(line1), "README.md", append=TRUE)
-  write_lines(glue(line2), "README.md", append=TRUE)
-  write_lines(glue(line3), "README.md", append=TRUE)
+  write_file(bullet1, "../README.md", append=TRUE)
+  write_lines(glue(line1), "../README.md", append=TRUE)
+  write_file(bullet2, "../README.md", append=TRUE)
+  write_lines(glue(line2), "../README.md", append=TRUE)
+  write_file(bullet2, "../README.md", append=TRUE)
+  write_lines(glue(line3), "../README.md", append=TRUE)
   
   cat(glue(line1))
   cat("\n")

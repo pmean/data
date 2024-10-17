@@ -1,11 +1,11 @@
 ---
-data_dictionary: transplant.txt
+data_dictionary: transplant0.txt
 
 source:
   This dataset is available though the survival
   package of the R programming language.
   
-description:
+description: >
   This data dictionary provides information about
   a dataset that for a variety of reasons, comes
   in four different files. Two files of the files
@@ -18,7 +18,7 @@ description:
   needed for patients who switch the covariate pattern
   in the middle of the study.
 
-note:
+note: >
   This dataset shows information about heart transplant
   patients. Patients were accepted into a heart 
   transplant program, but many had to wait months
@@ -28,7 +28,7 @@ note:
   illustrating start/stop coding for time varying
   covariates.
   
-copyright:
+copyright: >
   Because this data is included in the 
   survival package of the R programming language,
   this dataset is free to use with just a few

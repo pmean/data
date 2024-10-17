@@ -1,22 +1,19 @@
 ---
 data_dictionary: transplant1.csv
 
-source:
-  This dataset is identical to transplant.txt, 
+source: >
+  This dataset is identical to transplant0.txt, 
   except that it uses a slightly different
   format.
-  
-  For the background about this data, please
-  refer to transplant-data_dictionary.yaml.
  
 download_url:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
   
 description:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
   
 copyright:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
 
 format: 
   comma-delimited

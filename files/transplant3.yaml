@@ -1,7 +1,7 @@
 ---
 data_dictionary: transplant3.csv
 
-source:
+source: >
   This dataset is identical to transplant2.csv, 
   except that it uses a slightly different
   format.
@@ -10,13 +10,13 @@ source:
   refer to transplant-data_dictionary.yaml.
  
 download_url:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
   
 description:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
   
 copyright:
-  Please refer to transplant-data_dictionary.yaml
+  Please refer to transplant0.yaml
 
 format: 
   delimiter: comma
