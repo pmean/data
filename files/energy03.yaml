@@ -1,14 +1,15 @@
 ---
 data_dictionary: energy03.txt
 
-description:
+description: >
   Energy requirements while running, 
   walking, and cycling. This dataset
-  is a modification of the original
+  and others named similarly are 
+  modifications of the original
   data to illustrate various options
-  for data input. See the energy01
-  data dictionary for more details.
-
+  for data input. For more
+  information, refer to energy00.yaml
+  
 format: 
   fixed-width text
 

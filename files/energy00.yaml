@@ -1,11 +1,13 @@
 ---
-data_dictionary: energy00.txt
+data_dictionary: energy.txt
 
-description: >
+
+description:
   Energy requirements while running, 
-  walking, and cycling. Other datasets
-  named similarly are modifications of
-  this data to illustrate various 
+  walking, and cycling. The datasets
+  energy01, energy02, energy03, and
+  energy04 are modifications of the
+  original data to illustrate various
   options for data input.
   
 additional_description:  
