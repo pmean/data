@@ -2,14 +2,14 @@
 title: README file for data repository
 ---
 
-## datasets
+## data
 
 This repository stores various datasets that I use in my talks and my classes. It does not include any datasets that I use in my private consulting practice. Those datasets are assumed to be owned by the client and would only be stored in a private repository.
 
 I will eventually consolidate all the datasets that I have stored in various other repositories here. Some of the repositories that I need to move data from include
 
 -   [classes](https://github.com/pmean/classes)
--   [data-dictonaries](https://github.com/pmean/data-dictionaries)
+-   [data-dictionaries](https://github.com/pmean/data-dictionaries)
 -   [introduction-to-r](https://github.com/pmean/introduction-to-r)
 -   [introduction-to-sas](https://github.com/pmean/introduction-to-sas)
 -   [introduction-to-sql](https://github.com/pmean/introduction-to-sql)
@@ -17,7 +17,7 @@ I will eventually consolidate all the datasets that I have stored in various oth
 
 For many of the datasets in this repository, the copyright is not clearly stated anywhere that I could find. Use by individuals for educational purposes is probably acceptable under the Fair Use provisions of copyright law.
 
-If you own the copyright to any of these datasets and wish to clarify the conditions under which they can be used, please contact me ([mail\@pmean.com](mailto:mail@pmean.com){.email}). If I am not allowed to store your data on my repository, I would be glad to remove your dataset.
+If you own the copyright to any of these datasets and wish to clarify the conditions under which they can be used, please [contact me](http://www.pmean.com/contact.html). If I am not allowed to store your data on my repository, I would be glad to remove your dataset.
 
 Here are the datasets in this repository so far:
  

@@ -1,0 +1,91 @@
+---
+data_dictionary: fruitfly.dat.txt
+
+copyright: >
+  This dataset is copyrighted by the
+  authors of the Journal of 
+  Statistics Education article, but
+  should be available for individual
+  educational uses under the Fair 
+  Use provisions of copyright law.
+
+description: >
+  Does access to mating affect the 
+  lifespan of fruitflies? This data
+  shows the longevity of male
+  fruitflies in the presence or 
+  absence of female fruitflies to
+  mate with. Male fruitflies were
+  housed with 0, 1, or 8 females.
+  In some groups, the females were
+  pregnant and thus not available
+  for mating. There are two 
+  covariates, length of the thorax
+  and percentage of time sleeping,
+  that might also influence 
+  longevity.
+
+source: >
+  Partridge, L., and Farquhar, M. (1981), 
+  "Sexual Activity and the Lifespan of 
+  Male Fruitflies," Nature, 294, 580-581.
+  
+  James A. Hanley & Stanley H. Shapiro. 
+  Sexual Activity and the Lifespan of 
+  Male Fruitflies: A Dataset That Gets
+  Attention. Journal of Statistics 
+  Education v.2, n.1 (1994)
+
+additional_description:
+  https://jse.amstat.org/datasets/fruitfly.txt
+
+download_url:
+  https://jse.amstat.org/datasets/fruitfly.dat.txt
+
+format:
+  fixed width
+
+varnames: 
+  not included
+  
+missing_value_code:
+  not needed
+  
+size:   
+  rows: 125
+  columns: 6
+
+vars:
+  id:
+    columns: 1-2
+    
+  partners:
+    columns: 4
+    label: Number of female partners
+    values: 0, 1, or 8
+    
+  type:
+    columns: 6
+    label: Type of female fruitfly
+    values: 
+      0: newly pregnant female
+      1: virgin female
+      9: not applicable (when partners=0)
+
+  longevity:
+    columns: 8-9
+    label: Lifespan
+    unit: days
+    range: positive
+    
+  thorax:
+    columns: 11-14
+    label: Length of thorax
+    unit: mm
+    range: positive
+  
+  sleep:
+    columns: 16-17
+    label: Percentage of each day sleeping
+    range: 0 to 100
+---
