@@ -2,39 +2,25 @@
 data_dictionary: fruitfly.dat.txt
 
 copyright: >
-  This dataset is copyrighted by the
-  authors of the Journal of 
-  Statistics Education article, but
-  should be available for individual
-  educational uses under the Fair 
-  Use provisions of copyright law.
+  This dataset is copyrighted by the authors of the Journal of Statistics 
+  Education article, but should be available for individual educational uses
+  under the Fair Use provisions of copyright law.
 
 description: >
-  Does access to mating affect the 
-  lifespan of fruitflies? This data
-  shows the longevity of male
-  fruitflies in the presence or 
-  absence of female fruitflies to
-  mate with. Male fruitflies were
-  housed with 0, 1, or 8 females.
-  In some groups, the females were
-  pregnant and thus not available
-  for mating. There are two 
-  covariates, length of the thorax
-  and percentage of time sleeping,
-  that might also influence 
-  longevity.
+  Does access to mating affect the lifespan of fruitflies? This data shows the
+  longevity of male fruitflies in the presence or absence of female fruitflies
+  to mate with. Male fruitflies were housed with 0, 1, or 8 females. In some
+  groups, the females were pregnant and thus not available for mating. There are
+  two covariates, length of the thorax and percentage of time sleeping, that
+  might also influence longevity.
 
 source: >
-  Partridge, L., and Farquhar, M. (1981), 
-  "Sexual Activity and the Lifespan of 
+  Partridge, L., and Farquhar, M. (1981), "Sexual Activity and the Lifespan of 
   Male Fruitflies," Nature, 294, 580-581.
   
-  James A. Hanley & Stanley H. Shapiro. 
-  Sexual Activity and the Lifespan of 
-  Male Fruitflies: A Dataset That Gets
-  Attention. Journal of Statistics 
-  Education v.2, n.1 (1994)
+  James A. Hanley & Stanley H. Shapiro. Sexual Activity and the Lifespan of Male
+  Fruitflies: A Dataset That Gets Attention. Journal of Statistics Education
+  v.2, n.1 (1994)
 
 additional_description:
   https://jse.amstat.org/datasets/fruitfly.txt
