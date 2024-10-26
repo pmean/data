@@ -1,4 +1,3 @@
----
 data_dictionary: wolf-river-pollution
 
 format: 
@@ -43,7 +42,7 @@ vars:
     scale: ordinal
     
   Aldrin:
-    label: Concentration of Aldrain
+    label: Concentration of Aldrin
     units: Not specified
     scale: ratio
 
@@ -51,4 +50,3 @@ vars:
     label: Concentration of HCB
     units: Not specified
     scale: ratio
----
