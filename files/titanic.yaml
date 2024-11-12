@@ -2,21 +2,13 @@
 data_dictionary: titanic.txt
 
 description: >
-  The Titanic was a large cruise ship, 
-  the biggest of its kind in 1912. It 
-  was thought to be unsinkable, but 
-  when it set sail from England to 
-  America in its maiden voyage, it 
-  struck an iceberg and sank, killing 
-  many of the passengers and crew. You
-  can get fairly good data on the 
-  characteristics of passengers who 
-  died and compare them to those that 
-  survived. The data indicate a strong 
-  effect due to age and gender, 
-  representing a philosophy of 
-  "women and children first" that held
-  during the boarding of life boats.
+  The Titanic was a large cruise ship, the biggest of its kind in 1912. It was
+  thought to be unsinkable, but when it set sail from England to America in its
+  maiden voyage, it struck an iceberg and sank, killing many of the passengers
+  and crew. You can get fairly good data on the characteristics of passengers 
+  who died and compare them to those that survived. The data indicate a strong 
+  effect due to age and gender, representing a philosophy of "women and children
+  first" that held during the boarding of life boats.
  
 additional_description: 
   http://www.statsci.org/data/general/titanic.html
