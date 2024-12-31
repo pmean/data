@@ -1,21 +1,22 @@
----
 data_dictionary:
   sleep.txt
   
+repository: OzDASL
+
+repository_url: 
+  https://gksmyth.github.io/ozdasl/index.html
+
+citation: >
+  Smyth, GK (2011). Australasian Data and Story Library (OzDASL).
+  http://www.statsci.org/data.
+  
 source: >
-  This dataset is part of the Austrasian Data and
-  Story Library (OZDASL). Please cite this data as
-  Smyth, GK (2011). Australasian Data and Story 
-  Library (OzDASL). http://www.statsci.org/data.
-  The data comes originally from Allison, T., and
-  Cicchetti, D. V. (1976). Sleep in mammals. 
-  ecological and constitutional correlates. 
-  Science 194 (November 12), 732-734.
+  Allison, T., and Cicchetti, D. V. (1976). Sleep in mammals. ecological and
+  constitutional correlates. Science 194 (November 12), 732-734.
 
 description: >
-  This dataset has information about sleep patterns
-  in 62 common mammals, along with other information
-  that might help you understand what influences
+  This dataset has information about sleep patterns in 62 common mammals, along 
+  with other information that might help you understand what influences
   variations in sleep.
   
 additional_description:
@@ -25,12 +26,20 @@ download_url:
   http://www.statsci.org/data/general/sleep.txt
 
 copyright:
-  unknown
+  Permission is granted to freely use material on the OzDASL site, although
+  acknowledgement of the OzDASL site as the data source would be appreciated. 
+  Please be aware though that some of the OzData data sets were originally 
+  published elsewhere; original sources are cited on the description page. If 
+  you intend to re-publish one of these data sets it may be necessary to obtain
+  permission from the original copyright holder.
 
-format: 
-  delimiter: tab
-  varnames: included in the first row of data
-  missing_value_code: NA
+format:
+  -  tab-delimited
+  -  names included in the first row
+  
+missing_value_code: NA
+
+size:
   rows: 62
   columns: 11
 
@@ -75,4 +84,3 @@ vars:
   Danger:
     scale: likert
     range: 1-5
----
