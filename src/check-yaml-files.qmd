@@ -20,7 +20,7 @@ library(yaml)
 ## Get file list
 
 ```{r get-list}
-yamls <- list.files("..", pattern="yaml$")
+yamls <- list.files("../files", pattern="yaml$")
 ```
 
 There are `r length(yamls)` yaml files to be checked: `r paste0(yamls, collapse=", ")`.
@@ -29,13 +29,15 @@ There are `r length(yamls)` yaml files to be checked: `r paste0(yamls, collapse=
 
 ## Check local files
 
-```{r local}
-#> error: true
+```{r}
+#| label: local
+#| error: true
+
 for (y in yamls) {
   cat("\n")
   cat(y)
   cat(": ")
-  check <- read_yaml(glue("../{y}"))
+  check <- read_yaml(glue("../files/{y}"))
   cat(check$data_dictionary)
 }
 ```
