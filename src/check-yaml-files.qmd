@@ -65,7 +65,7 @@ line2 <- "    -   [data dictionary]({f0}/{f1}/{y})"
 line3 <- "    -   [{d}]({f0}/{f1}/{d})\n"
 for (y in yamls) {
   r <- str_remove(y, "\\.yaml")
-  check <- read_yaml(glue("../{y}"))
+  check <- read_yaml(glue("../files/{y}"))
   description <- ifelse(
     any(names(check) == "description"),
     check$description, 

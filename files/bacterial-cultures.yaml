@@ -11,9 +11,9 @@ missing_value_code:
   not needed
   
 description: >
-  Five strains of Staphylococcus aureus were cultured under a variety
-  of laboratory conditions. The goal is to see what conditions are 
-  optimal for growth.
+  Five strains of Staphylococcus aureus were cultured under a variety of 
+  laboratory conditions. The goal is to see what conditions are optimal for
+  growth.
 
 additional_description:
   https://jse.amstat.org/datasets/Tryptone.txt
