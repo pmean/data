@@ -4,7 +4,7 @@ title: README file for data repository
 
 ## data
 
-This repository stores various datasets that I use in my talks and my classes. It does not include any datasets that I use in my private consulting practice. Those datasets are assumed to be owned by the client and would only be stored in a private repository.
+This repository, data, stores various datasets that I use in my talks and my classes. It replaces an earlier repository, datasets. It does not include any datasets that I use in my private consulting practice. Those datasets are assumed to be owned by the client and would only be stored in a private repository.
 
 I will eventually consolidate all the datasets that I have stored in various other repositories here. Some of the repositories that I need to move data from include
 
@@ -47,7 +47,7 @@ Here are the datasets in this repository so far:
 -   **back-pain-runners** : The study recruited runners with lower back pain and found matching subjects among runners without lower back pain and among a sedentary group of adults.
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/back-pain-runners.yaml)
     -   [back-pain-runners.csv](https://raw.githubusercontent.com/pmean/data/main/files/back-pain-runners.csv)
--   **bacterial-cultures** : Five strains of Staphylococcus aureus were cultured under a variety of laboratory conditions. The goal is to see what conditions are  optimal for growth.
+-   **bacterial-cultures** : Five strains of Staphylococcus aureus were cultured under a variety of  laboratory conditions. The goal is to see what conditions are optimal for growth.
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/bacterial-cultures.yaml)
     -   [bacterial-cultures.txt](https://raw.githubusercontent.com/pmean/data/main/files/bacterial-cultures.txt)
@@ -64,7 +64,7 @@ Here are the datasets in this repository so far:
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/breast-feeding-preterm.yaml)
     -   [breast-feeding-preterm.csv](https://raw.githubusercontent.com/pmean/data/main/files/breast-feeding-preterm.csv)
--   **burger-calories** : Fat, sodium, and calories for various  fast food hamburgers.
+-   **burger-calories** : Fat, sodium, and calories for various fast food hamburgers.
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/burger-calories.yaml)
     -   [burger-calories.txt](https://raw.githubusercontent.com/pmean/data/main/files/burger-calories.txt)
@@ -204,6 +204,10 @@ Here are the datasets in this repository so far:
     -   [fly3.sas7bdat](https://raw.githubusercontent.com/pmean/data/main/files/fly3.sas7bdat)
     -   [fly3.sav](https://raw.githubusercontent.com/pmean/data/main/files/fly3.sav)
     -   [fly3.txt](https://raw.githubusercontent.com/pmean/data/main/files/fly3.txt)
+-   **fruitfly** : Does access to mating affect the lifespan of fruitflies? This data shows the longevity of male fruitflies in the presence or absence of female fruitflies to mate with. Male fruitflies were housed with 0, 1, or 8 females. In some groups, the females were pregnant and thus not available for mating. There are two covariates, length of the thorax and percentage of time sleeping, that might also influence longevity.
+
+    -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/fruitfly.yaml)
+    -   [fruitfly.txt](https://raw.githubusercontent.com/pmean/data/main/files/fruitfly.txt)
 -   **full-moon-er-admissions** : The data give the admission rates to the emergency room of a Virginia mental health clinic before, during and after the 12  full moons from August 1971 to July 1972.
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/full-moon-er-admissions.yaml)
@@ -320,7 +324,7 @@ sharing services platforms."
 -   **singapore-diamond-prices** : The data is intended to teach some lessons about regression models. The size of a diamond, as well as some categorical descriptors (color and clarity) are listed for 308 diamonds, along with their sales price.
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/singapore-diamond-prices.yaml)
     -   [singapore-diamond-prices.txt](https://raw.githubusercontent.com/pmean/data/main/files/singapore-diamond-prices.txt)
--   **sleep** : This dataset has information about sleep patterns in 62 common mammals, along with other information that might help you understand what influences variations in sleep.
+-   **sleep** : This dataset has information about sleep patterns in 62 common mammals, along  with other information that might help you understand what influences variations in sleep.
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/sleep.yaml)
     -   [sleep.sas7bdat](https://raw.githubusercontent.com/pmean/data/main/files/sleep.sas7bdat)
@@ -335,7 +339,7 @@ sharing services platforms."
 -   **termites** : Resins Rid Termites from Trees
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/termites.yaml)
     -   [termites.txt](https://raw.githubusercontent.com/pmean/data/main/files/termites.txt)
--   **titanic** : The Titanic was a large cruise ship,  the biggest of its kind in 1912. It  was thought to be unsinkable, but  when it set sail from England to  America in its maiden voyage, it  struck an iceberg and sank, killing  many of the passengers and crew. You can get fairly good data on the  characteristics of passengers who  died and compare them to those that  survived. The data indicate a strong  effect due to age and gender,  representing a philosophy of  "women and children first" that held during the boarding of life boats.
+-   **titanic** : The Titanic was a large cruise ship, the biggest of its kind in 1912. It was thought to be unsinkable, but when it set sail from England to America in its maiden voyage, it struck an iceberg and sank, killing many of the passengers and crew. You can get fairly good data on the characteristics of passengers  who died and compare them to those that survived. The data indicate a strong  effect due to age and gender, representing a philosophy of "women and children first" that held during the boarding of life boats.
 
     -   [data dictionary](https://raw.githubusercontent.com/pmean/data/main/files/titanic.yaml)
     -   [titanic-upload-to-sqlite.Rmd](https://raw.githubusercontent.com/pmean/data/main/files/titanic-upload-to-sqlite.Rmd)

@@ -23,7 +23,9 @@ library(yaml)
 yamls <- list.files("../files", pattern="yaml$")
 ```
 
-There are `r length(yamls)` yaml files: `r paste0(yamls, collapse=", ")`.
+There are `r length(yamls)` yaml files:
+
+1.  `r paste0(yamls, collapse="\n1. ")`.
 
 ## Backup original readme
 

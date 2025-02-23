@@ -46,8 +46,9 @@ for (y in yamls) {
 
 ```{r github}
 #> error: true
+
 f0 <- "https://raw.githubusercontent.com"
-f1 <- "pmean/datasets/master"
+f1 <- "pmean/data/refs/heads/main/files"
 for (y in yamls) {
   cat("\n")
   cat(y)
