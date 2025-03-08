@@ -1,0 +1,52 @@
+---
+data_dictionary: binary
+
+format: 
+  csv: comma-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Hypothetical data examining factors predicting admission to graduate school
+
+additional_description:
+  https://stats.idre.ucla.edu/r/dae/logit-regression/
+
+download_url:
+  https://jse.amstat.org/datasets/Tryptone.dat.txt
+
+source: >
+  Office of Advanced Research Computing, UCLA
+
+copyright: >
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+size:  
+  rows: 400
+  columns: 4
+
+vars:
+  admit:
+    label: Did the student gain admission to a graduate program?
+    values:
+      0: no
+      1: yes
+    
+  gre:
+    label: Score on Graduate Record Exam
+    scale: ratio
+
+  gpa:
+    label: Grade Point Average
+    scale: ratio
+
+  rank: 
+    label: Institutional prestige (one is highest)
+    scale: ordinal
+---

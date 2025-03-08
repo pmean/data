@@ -1,0 +1,55 @@
+---
+data_dictionary: airport
+
+format: 
+  txt: fixed width
+
+varnames: 
+  not included in the first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Data on medium and large U.S. airports
+
+additional_description:
+  http://jse.amstat.org/datasets/airport.txt
+
+download_url:
+  http://jse.amstat.org/datasets/airport.dat.txt
+
+source: >
+  Journal of Statistics Education datasets
+
+copyright: >
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+size:  
+  rows: 34
+  columns: 3
+
+vars:
+  Airport:
+    columns: 1 to 21
+    
+  City:
+    columns: 22 to 43 
+    
+  Scheduled departures:
+    columns: 44 to 49 
+
+  Performed departures:
+    columns: 51 to 56
+    
+  Enplaned passengers:
+    columns: 58 to 65
+    
+  Enplaned revenue tons of freight:
+    columns: 67 to 75
+
+  Enplaned revenue tons of mail:
+    columns: 77 to 85
+---

@@ -1,0 +1,46 @@
+---
+data_dictionary: barbershop-music
+
+format: 
+  txt: tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Scores at a barbershop music singing competion
+
+additional_description:
+  https://dasl.datadescription.com/datafile/barbershop-music/
+
+download_url:
+  https://dasl.datadescription.com/download/data/3061
+
+source: >
+  Data and Story Library (DASL), Data Description, Inc.
+
+copyright: >
+  Unknown. You should be able to use this data for
+  individual educational purposes under the Fair Use
+  guidelines of U.S. copyright law.
+
+size:  
+  rows: 34
+  columns: 3
+
+vars:
+  Singing:
+    label: Rating on singing quality
+    scale: ordinal
+  
+  Performance:
+    label: Rating on performance quality
+    scale: ordinal
+  
+  Music:
+    label: Rating on musical arrangement quality
+    scale: ordinal
+---
