@@ -1,0 +1,196 @@
+---
+data_dictionary: 
+  physical_activity.sav
+
+description: >
+  This data set is from a cluster randomized trial in Norway. Students from 57
+  schools were recruited for the study. 29 schools were randomly assigned to
+  physical activity intervention and 28 schools served as a control group. 
+  The outcomes were changes in various measures of cardiometabolic health.
+
+source: >
+  Mette Stavnsbo, Eivind Aadland, Sigmund A. Anderssen, Mai Chinapaw, 
+  Jostein Steene-Johannessen, Lars B. Andersen, Geir K. Resaland. Effects of the
+  Active Smarter Kids (ASK) physical activity intervention on cardiometabolic 
+  risk factors in children: A cluster-randomized controlled trial. Preventive
+  Medicine, Volume 130, 2020, 105868, https://doi.org/10.1016/j.ypmed.2019.105868.
+
+repository:
+  Mendeley Data
+  
+repository_url:
+  https://data.mendeley.com/
+  
+download_url:
+  https://data.mendeley.com/datasets/rvj5cf8cb5/1
+  
+copyright: >
+  CC NC BY 3.0. You are free to adapt, copy or redistribute the material, 
+  providing you attribute appropriately and do not use the material for 
+  commercial purposes.
+
+format: 
+  Proprietary SPSS format
+
+missing_value_code:
+  dot (.)
+
+size:
+  rows: 1,129
+  columns: 41
+
+vars:
+  School:
+    range: 1 to 60
+  
+  Group_allocation:
+    label: Cluster assignment
+    values:
+      -  Control
+      -  Intervention
+      
+  Per_protocol_filter 
+    label: Indicator for per-protocol analysis
+    values:
+      - ekskludert
+      - inkludert
+      
+  Sex:
+    values:
+      - BOY
+      - GIRL
+      
+  Age_PRE:
+    label: Age at baseline (not rounded)
+    scale: ratio
+    
+  Weight_PRE:
+    label: Weight at baseline
+    unit: kg
+    
+  Height_PRE:
+    label: Height at baseline
+    unit: cm
+    
+  BMI_PRE:
+    label: Body mass index at baseline
+    unit: kg/cm^2
+    
+  WC_PRE:
+    label: Waist circumference at baseline
+    unit: cm
+    
+  SBP_PRE: 
+    label: Systolic blood pressure at baseline
+    
+  DBP_PRE:
+    label: Diastolic blood pressure at baseline
+    
+  LDL_PRE:
+    label: LDL cholesterol at baseline
+    
+  HDL_PRE: 
+    label: HDL cholesterol at baseline 
+    
+  TC_PRE:
+    label: Total cholesterol at baseline
+    
+  TC_HDL_ratio_PRE
+    label: Total to HDL cholesterol at baseline
+    
+  TG_PRE:
+    label: Triglycerides at baseline
+    unit: mmol/L
+    
+  HOMA_PRE:
+    label: Homeostatic model assessment at baseline
+    
+  Glucose_PRE:
+    label: Glucose at baseline
+    unit: mmol/L
+    
+  Insulin_PRE:
+    label: Insulin at baseline
+    unit: mmol/L
+    
+  Andersen_test_PRE:
+    label: Total distance covered in the Andersen shuttle run test at baseline
+    unit: m
+  
+  Puberty_PRE:
+    label: Tanner stage 
+    values:
+      1: Tanner stage 1
+      2: Tanner stage 2
+      3: Tanner stages 3 to 5
+    
+  Parental_education_level:
+    label: Parental education category
+    values:
+      1: University ≥ four years
+      2: University < four years
+      3: Upper or lower secondary school
+    
+  PA_Valid_days_school_PRE:
+    label: Days of use, at school
+
+  PA_Wear_minutes_school_PRE 
+    label: Minutes of use, at school
+    
+  PA_CPM_school_PRE:
+    label: Counts per minute, at school
+    
+  PA_MVPA_school_PRE:
+    label: Moderate to vigorous activity, at school
+    
+  PA_VPA_school_PRE:
+    label: Vigorous activity, at school
+  
+  PA_SED_school_PRE:
+    label: Sedentary activity, at school
+  
+  PA_Valid_days_allday_PRE:
+    label: Days of use, all day
+    
+  PA_Wear_minutes_allday_PRE:
+    label: Minutes of use, all day
+    
+  PA_CPM_allday_PRE:
+    label: Counts per minute, all day
+    
+  PA_MVPA_allday_PRE:
+    label: Moderate to vigorous physical activity, all day
+    
+  PA_VPA_allday_PRE: 
+    label: Vigorous physical activity, all day
+    
+  PA_SED_allday_PRE:
+    label: Sedentary activity, all day
+    
+  PA_guideline_PRE:
+    label: Did the child meet the physical activity guidelines?
+    value:
+      0: No
+      1: Yes
+  
+  WC_POST:
+    label: Waist circumference, end of study
+    
+  SBP_POST:
+    label: Systolic blood pressure, end of study
+    unit: mmHg
+    
+  TG_POST:
+    label: Triglycerides, end of study
+    unit: mmol/L
+  
+  TC_HDL_ratio_POST: 
+    label: Total to HDL cholesterol, end of study
+  
+  HOMA_POST:
+    label: Homeostatic model assessment, end of study
+  
+  Andersen_test_POST:
+    label: Total distance covered in the Andersen shuttle run test, end of study
+    unit: m
+---

@@ -1,0 +1,83 @@
+---
+data_dictionary: 
+  oa.txt
+
+description: >
+  This data set shows an experiment where ten subjects with osteoarthritis were
+  evaluated after transcutaneous electrical nerve stimulation (TENS), short wave
+  diathermy (SWD), and after no treatment. There is no information on whether the
+  order of the three treatments was randomized. It seems reasonable to assume 
+  that the affect of the three treatments was short term with no carry-over 
+  effects. Researchers measured pain on a visual analog scale (VAS) and range of
+  motion (ROM).
+
+
+additional_description:
+  https://gksmyth.github.io/ozdasl/oz/oa.html
+
+repository:
+  Australian Data And Story Library (OzDASL)
+  
+repository_url:
+  https://gksmyth.github.io/ozdasl/index.html
+  
+download_url:
+  https://gksmyth.github.io/ozdasl/oz/oa.txt
+  
+copyright: >
+  You are free to use these data, for the most part, though an acknowledgement
+  of the original source is appreciated.
+
+format: 
+  tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code:
+  not needed
+
+size:
+  rows: 10
+  columns: 7
+
+vars:
+  Subject:
+    label: Subject number
+    format: numeric
+    range: 1 to 10
+
+  NoROM:
+    label: Range of motion after no treatment
+    unit: Angle (degrees)
+    scale: Ratio
+    
+  NoVAS:
+    label: Pain measurement after no treatment
+    unit: Visual Analog Scale
+    range: 0 to 10
+    scale: Ratio
+    
+  TENSROM		ROM after transcutaneous electrical nerve stimulation
+    label: Range of motion after no treatment
+    unit: Angle (degrees)
+    scale: Ratio
+
+  TENSVAS		VAS after transcutaneous electrical nerve stimulation
+    label: Pain measurement after no treatment
+    unit: Visual Analog Scale
+    range: 0 to 10
+    scale: Ratio
+
+  SWDROM		ROM after short wave diathermy
+    label: Range of motion after short wave diathermy
+    unit: Angle (degrees)
+    scale: Ratio
+
+  SWDVAS		VAS after short wave diathermy
+    label: pain measurement after short wave diathermy
+    unit: Visual Analog Scale
+    range: 0 to 10
+    scale: Ratio
+
+---
