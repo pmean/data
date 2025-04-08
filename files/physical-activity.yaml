@@ -36,7 +36,7 @@ missing_value_code:
   dot (.)
 
 size:
-  rows: 1,129
+  rows: 1129
   columns: 41
 
 vars:
@@ -49,16 +49,14 @@ vars:
       -  Control
       -  Intervention
       
-  Per_protocol_filter 
-    label: Indicator for per-protocol analysis
+  Per_protocol_filter: 
+    label: "Indicator for per-protocol analysis"
     values:
-      - ekskludert
-      - inkludert
+      ekskludert, inkludert
       
   Sex:
     values:
-      - BOY
-      - GIRL
+      BOY, GIRL
       
   Age_PRE:
     label: Age at baseline (not rounded)
@@ -95,7 +93,7 @@ vars:
   TC_PRE:
     label: Total cholesterol at baseline
     
-  TC_HDL_ratio_PRE
+  TC_HDL_ratio_PRE:
     label: Total to HDL cholesterol at baseline
     
   TG_PRE:
@@ -134,7 +132,7 @@ vars:
   PA_Valid_days_school_PRE:
     label: Days of use, at school
 
-  PA_Wear_minutes_school_PRE 
+  PA_Wear_minutes_school_PRE: 
     label: Minutes of use, at school
     
   PA_CPM_school_PRE:
