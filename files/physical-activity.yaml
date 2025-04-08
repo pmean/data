@@ -59,7 +59,7 @@ vars:
       BOY, GIRL
       
   Age_PRE:
-    label: Age at baseline (not rounded)
+    label: "Age at baseline (not rounded)"
     scale: ratio
     
   Weight_PRE:
