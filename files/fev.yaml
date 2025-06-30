@@ -52,11 +52,11 @@ vars:
 
   sex:
     value:
-      "F": Female
-      "M": Male
+      0: Female
+      1: Male
 
   smoke:
     value:
-      "N": Nonsmoker
-      "Y": Smoker
+      0: Nonsmoker
+      1: Smoker
 ---
