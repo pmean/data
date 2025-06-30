@@ -13,9 +13,10 @@ description: >
 
 additional_description:
   https://jse.amstat.org/v13n2/datasets.kahn.html
+  https://jse.amstat.org/datasets/fev.txt
 
 download_url:
-  https://www.amstat.org/publications/jse/datasets/fev.dat.txt
+  https://jse.amstat.org/datasets/fev.dat.txt
 
 format:
   csv: comma delimited
