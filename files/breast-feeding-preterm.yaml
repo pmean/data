@@ -21,8 +21,6 @@ format:
 varnames: 
   first row of data
   
-missing_value_code: -1
-
 size:
   rows: 84
   columns: 28
@@ -39,6 +37,8 @@ vars:
     scale: ratio
     range: non-negative real
     unit: weeks
+    values:
+      missing: -1
 
   sepsis:
     label: Diagnosis of sepsis
@@ -95,18 +95,23 @@ vars:
     values:
       Yes: 1
       No: 2
+      missing: -1
 
   mi_hosp:
     label: Distance from the mother's home to the hospital
     unit: miles
     scale: ratio
     range: non-negative integer
+    values:
+      missing: -1
    
   ng_tube:
     label: Time on the NG tube
     unit: days
     scale: ratio
     range: non-negative integer
+    values:
+      missing: -1
    
   tot_bott:
     label: Bottles of formula given while in the hospital
@@ -140,18 +145,24 @@ vars:
     unit: kg
     scale: ratio
     range: positive real
+    values:
+      missing: -1
    
   bf1_age:
     label: Age at first breast feeding
     unit: hours
     scale: ratio
     range: positive integer   
+    values:
+      missing: -1
    
   dc_wt:
     label: Weight at discharge
     unit: kg
     scale: ratio
     range: positive real
+    values:
+      missing: -1
    
   dc_age:
     label: Age at discharge
@@ -164,6 +175,8 @@ vars:
     unit: days
     scale: ratio
     range: positive real
+    values:
+      missing: -1
    
   bf0:
     label: Breastfeeding status at hospital discharge
@@ -188,6 +201,7 @@ vars:
       Exclusive: 1
       Partial: 2
       None: 4
+      missing: -1
    
   bf3:
     label: Breastfeeding status three months after discharge
@@ -196,6 +210,7 @@ vars:
       Exclusive: 1
       Partial: 2
       None: 4
+      missing: -1
    
   bf4:
     label: Breastfeeding status six months after discharge
@@ -204,3 +219,4 @@ vars:
       Exclusive: 1
       Partial: 2
       None: 4
+      missing: -1
