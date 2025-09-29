@@ -1,0 +1,33 @@
+---
+data_dictionary: hypothetical-regression
+
+format: 
+  txt: comma-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  not needed
+  
+description: >
+  Hypothetical data set for regression. The values are
+  chosen to simplify the sums of squares calculations.
+
+source: >
+  Data and Story Library (DASL), Data Description, Inc.
+
+copyright: >
+  Public domain. Use this data any way you wish.
+
+size:  
+  rows: 6
+  columns: 2
+
+vars:
+  x:
+    label: Hypothetical independent variable
+
+  y:
+    label: Hyopthetical dependent variable
+---
