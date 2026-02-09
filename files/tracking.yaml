@@ -1,0 +1,77 @@
+---
+data_dictionary: tracking
+
+format: 
+  txt: tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  None needed
+  
+description: >
+  Results of a test of hand-eye coordination. This
+  test used a rotating disk with a target spot.
+  Subjects tried to maintain contact with the moving
+  target using a metal wand. Outcome was the time
+  spent in contact during a 15 second interval. Each
+  subject repeated this task for four trials total.
+
+additonal_description:
+  https://gksmyth.github.io/ozdasl/general/tracking.html
+
+download_url:
+  https://gksmyth.github.io/ozdasl/general/tracking.txt
+
+source: >
+  OzDASL, the Australasian Data and Story Library
+
+copyright: >
+  Permission is granted to freely use material
+  on the OzDASL site, although acknowledgement of the 
+  OzDASL site as the data source would be appreciated.
+  Please cite the library as: Smyth, Gordon K (2011).
+  Australasian Data and Story Library (OzDASL).
+  https://gksmyth.github.io/ozdasl.
+  
+size:  
+  rows: 108
+  columns: 7
+
+vars:
+  Sex
+    label: Sex of test subject
+    scale: nominal
+    value: M/F
+    
+  Age
+    label: Age of test subject
+    scale: ratio
+    unit: years
+    
+  Shape
+    label: Shape of target
+    scale: nominal
+    value: Box/Circle
+    
+  Trial1:
+    label: Contact time for first trial
+    scale: ratio
+    unit: seconds
+
+  Trial2:
+    label: Contact time for second trial
+    scale: ratio
+    unit: seconds
+    
+  Trial3:
+    label: Contact time for third trial
+    scale: ratio
+    unit: seconds
+
+  Trial4:
+    label: Contact time for fourth trial
+    scale: ratio
+    unit: seconds
+---
