@@ -29,14 +29,14 @@ format:
 
 vars: 
   loss: 
-    label: Average weekly weight loss
+    label: Total weight loss
     note: negative scores denote weight gain
     scale: real
     unit: unknown, presumably pounds
     
   hours: 
-    label: weekly average amount of exercise
-    unit: hours
+    label: Average amount of exercise
+    unit: hours per week
 
   effort: 
     label: weekly effort scores
