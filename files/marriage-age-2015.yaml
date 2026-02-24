@@ -1,0 +1,61 @@
+---
+data_dictionary: marriage-age-2015
+
+format: 
+  txt: tab-delimited
+
+varnames: 
+  first row of data
+
+missing_value_code: 
+  None needed
+  
+description: >
+  Data from the U.S. Bureau of the Census provides 
+  information about the age of the first marriage 
+  for both men and women. These ages were averages 
+  across a particular census year, every ten years
+  from 1890 to 1940 and every year from 1947 
+  through 2015.
+
+additonal_description:
+  https://dasl.datadescription.com/datafile/marriage-age-2015/
+
+download_url:
+  https://dasl.datadescription.com/download/data/3329
+
+source: >
+  DASL, Data And Story Library
+
+copyright: >
+  The DASL library is maintained by Data Description, 
+  Inc., the creators of the Data Desk program for 
+  data analysis. No copyright is explicitly stated, 
+  but Data Description describes the resource as 
+  "an archive of hundreds of datafiles for use by 
+  students and teachers of statistics and data 
+  science". Presumably, this means that individual 
+  use for educational purposes is acceptable. You 
+  might want to cite the source, 
+  https://dasl.datadescription.com/.
+  
+size:  
+  rows: 75
+  columns: 3
+
+vars:
+  Year:
+    label: Year of the Census statistics
+    scale: interval
+    range: 1890 to 2015
+    
+  Men:
+    label: Average age at first marriage for men
+    scale: ratio
+    unit: years
+    
+  Women:
+    label: Average age at first marriage for women
+    scale: ratio
+    unit: years
+---
