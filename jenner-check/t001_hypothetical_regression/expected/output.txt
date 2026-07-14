@@ -1,0 +1,30 @@
+                                                 First two rows of data
+
+  Obs  x   y
+    1  4  34
+    2  6  20
+
+... 4 more observations (showing 2 of 6)
+
+                                                 First two rows of data
+
+                                                   The REG Procedure                                                    
+                                                     Model: MODEL1                                                      
+                                                 Dependent Variable: y                                                  
+
+Source                 DF  Sum of Squares  Mean Square   F Value    Pr > F
+---------------  --------  --------------  -----------  --------  --------
+Model                   1        70.00000     70.00000      0.49    0.5241
+Error                   4       576.00000    144.00000                    
+Corrected Total         5       646.00000                                 
+
+Root MSE          12.00000    R-Square            0.1084
+Dependent Mean      21.00000    Adj R-Sq           -0.1146
+Coeff Var         57.14286
+
+                       Parameter Estimates                       
+
+Variable         DF  Estimate  Standard Error   t Value  Pr > |t|
+---------  --------  --------  --------------  --------  --------
+Intercept         1  30.00000        13.80683      2.17    0.0955
+x                 1  -1.00000         1.43427     -0.70    0.5241

@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_hypothetical_regression",
+  "source_file": "src/hypothetical-regression.sas",
+  "source_blob_sha": "ce7a79a51986bc681fdc5b4bba7ee189bc80cbe7",
+  "source_commit": "87215b88a31e72b11f79b4475bb1e4bc5c39506a",
+  "notes": "Regression demo whose stated purpose is 'display analysis of variance table'. The upstream script fetches files/hypothetical-regression.csv over PROC HTTP; this bundle inlines those exact six x/y rows as DATALINES so it runs offline, keeps the PROC PRINT of the first rows, and adds the PROC REG that produces the ANOVA table the header comment describes. Deterministic across repeat runs."
+}

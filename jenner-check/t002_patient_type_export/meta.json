@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_patient_type_export",
+  "source_file": "pending/patient-type-download-from-oracle.sas",
+  "source_blob_sha": "df9a9d929ddb4a4a7b185fa253ca1a8897b5361e",
+  "source_commit": "87215b88a31e72b11f79b4475bb1e4bc5c39506a",
+  "notes": "Represents the three near-identical *-download-from-oracle.sas scripts (encounter, hospital, patient_type), which share one PROC SQL 'create table ... select * from or_link.&table_name' + PROC EXPORT dbms=csv pattern over an Oracle libname needing live EHR credentials. This bundle stands a small in-memory patient_type table in for the Oracle source so the same SQL-into-table and CSV-export logic runs anywhere. Deterministic across repeat runs."
+}

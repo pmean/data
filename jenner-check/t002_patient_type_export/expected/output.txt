@@ -1,0 +1,8 @@
+                                   Contents of the patient_type table exported to csv
+
+  Obs  patient_type_code     patient_type_desc
+    1  IP                 Inpatient
+    2  OP                 Outpatient
+    3  ED                 Emergency Department
+    4  OB                 Observation
+    5  SD                 Same Day Surgery
