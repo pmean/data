@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-14T05:35:09Z",
+  "_captured_run_id": "r_3ea2b55d56c04ced9d4da015d57b6e0a",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 6 rows from DATALINES.",
+    "NOTE: Wrote hypothetical (6 rows, 2 columns).",
+    "NOTE: PROC PRINT completed: 2 observations printed, 2 variables",
+    "NOTE: PROC REG: processed 1 job(s) in batch"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
