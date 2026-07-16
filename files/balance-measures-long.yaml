@@ -1,14 +1,14 @@
 ---
-data_dictionary: balance2.txt
+data_dictionary: balance-measures-long.txt
 
 source: 
-  See balance1-data-dictionary.yaml
+  See balance-measures-wide.yaml
 
 description:  
-  See balance1-data-dictionary.yaml
+  See balance-measures-wide.yaml
 
 copyright:  
-  See balance1-data-dictionary.yaml
+  See balance-measures-wide.yaml
 
 download_url:
   http://www.statsci.org/data/oz/ctsibuni.txt

@@ -1,0 +1,51 @@
+---
+data_dictionary:
+  harry-potter-opening-weekend.csv
+  
+description: >
+  This dataset includes the release data and
+  the opening weekend gross revenues for the 
+  eight Harry Potter movies. These movies were
+  based on a series of books by J.K. Rowling.
+  All the movies were very successful.
+  
+source: >
+  Abstracted from the BoxOffice Mojo website, 
+  Opening Weekends.
+  
+
+source_url: 
+  https://www.boxofficemojo.com/chart/top_opening_weekend/
+
+download_url:
+  http://jse.amstat.org/datasets/fat.dat.txt
+
+copyright: >
+  copyright is held by imdb.com. Individual uses
+  for educational purposes are probably
+  acceptable under the fair use provisions of
+  U.S. copyright law.
+  
+format: 
+  csv: comma-delimited
+
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  not needed
+  
+size:
+  rows: 8
+  columns: 3
+
+vars:
+  title:
+    label: Movie title
+  
+  weekend_gross:
+    label: Gross revenue for opening weekend
+    unit: US dollars
+  
+  opening_date:
+    format: MM-DD-YYYY

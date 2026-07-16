@@ -1,0 +1,48 @@
+---
+data_dictionary:
+  consumer-price-index.csv
+  
+description: >
+  This dataset lists the Consumer Price Index
+  for All Urban Consumers (CPI-U) for all years
+  from 1913 to the middle of 2026.
+  
+source: >
+  Downloaded from the U.S. Bureau of Labor Statistics
+  website.
+
+source_url: 
+  https://www.bls.gov/data/
+
+copyright: >
+  No copyright is explicitly stated, but anything
+  produced by a U.S. government agency is 
+  generally placed in the public domain.
+  acceptable under the fair use provisions of
+  U.S. copyright law.
+  
+format: 
+  csv: comma-delimited
+
+varnames: 
+  first row of data
+  
+missing_value_code: 
+  -(X)
+  
+size:
+  rows: 1,447
+  columns: 4
+
+vars:
+  Series Id:
+    values: CUUR0000SA0 for all rows
+  
+  Year:
+    format: YYYY
+  
+  Period:
+    values: M01 through M02, S01 and S02
+  
+  Value:
+    label: Consumer Price Index
